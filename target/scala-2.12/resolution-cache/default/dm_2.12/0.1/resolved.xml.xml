@@ -4,7 +4,7 @@
 		module="dm_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20180116054502"
+		publication="20180116060404"
 	>
 		<description>
 		DM
@@ -35,5 +35,7 @@
 		<dependency org="org.mockito" name="mockito-all" rev="1.10.19" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.1" conf="compile->default(compile)"/>
 		<dependency org="commons-net" name="commons-net" rev="3.3" conf="compile->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-log4j12" rev="1.2" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe" name="config" rev="1.2.1" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
