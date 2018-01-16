@@ -9,17 +9,17 @@ import scala.util.Try
 
 trait FtpDownloaderDM  extends Logger {
 
-  val ftpServer = FtpCredentialsDM.serverIp
-  val ftpPort = FtpCredentialsDM.serverPort
-  val ftpUsername = FtpCredentialsDM.serverUsername
-  val ftpPassword = FtpCredentialsDM.serverPassword
+  val ftpServer = FtpCredentials.serverIp
+  val ftpPort = FtpCredentials.serverPort
+  val ftpUsername = FtpCredentials.serverUsername
+  val ftpPassword = FtpCredentials.serverPassword
 
 
   def downloadCsvFiles(ftpFileUrl: String, fileName: String): Try[String] = {
     Try {
 
-      val ftpClient = FTPClientGeneratorDM.createFTPClient
-      val localDownloadFtpPath = FtpCredentialsDM.localFileSaveLocation
+      val ftpClient = FTPClientGenerator.createFTPClient
+      val localDownloadFtpPath = FtpCredentials.localFileSaveLocation
 
       new File(localDownloadFtpPath).mkdirs()
 
@@ -30,9 +30,10 @@ trait FtpDownloaderDM  extends Logger {
       ftpClient.retrieveFile(fileDownloadable, os)
       os.close()
 
-      FTPClientGeneratorDM.disconnect(ftpClient)
+      FTPClientGenerator.disconnect(ftpClient)
       val succMsg = "downloading ftp resource completed"
       logger.info(succMsg)
+      succMsg
     }
   }
 
@@ -49,7 +50,7 @@ trait FtpDownloaderDM  extends Logger {
 object ImplFtpDownloaderDM extends FtpDownloaderDM
 
 
-object FtpCredentialsDM extends ConfigurationReaderComponent {
+object FtpCredentials extends ConfigurationReaderComponent {
   def serverIp: String = getConfigurationProperty("ftpCredentials.ftpServer")
   def serverPort: String = getConfigurationProperty("ftpCredentials.ftpServer")
   def serverUsername: String = getConfigurationProperty("ftpCredentials.ftpServer")
@@ -57,7 +58,7 @@ object FtpCredentialsDM extends ConfigurationReaderComponent {
   val localFileSaveLocation: String = getConfigurationProperty("ftpCredentials.localDownloadLocation")
 }
 
-object FTPClientGeneratorDM {
+object FTPClientGenerator {
   def createFTPClient: FTPClient = {
     new FTPClient()
   }

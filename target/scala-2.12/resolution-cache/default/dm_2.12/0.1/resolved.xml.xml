@@ -4,7 +4,7 @@
 		module="dm_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20180116060404"
+		publication="20180116062022"
 	>
 		<description>
 		DM
@@ -37,5 +37,13 @@
 		<dependency org="commons-net" name="commons-net" rev="3.3" conf="compile->default(compile)"/>
 		<dependency org="org.slf4j" name="slf4j-log4j12" rev="1.2" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe" name="config" rev="1.2.1" conf="compile->default(compile)"/>
+		<dependency org="org.json4s" name="json4s-native_2.12" rev="3.6.0-M2" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.12" rev="2.4.17" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-persistence_2.12" rev="2.4.17" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-stream_2.12" rev="2.4.17" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-testkit_2.12" rev="2.4.17" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http-core_2.12" rev="10.0.1" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-cluster-tools_2.11" rev="2.4.17" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-remote_2.11" rev="2.4.17" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
