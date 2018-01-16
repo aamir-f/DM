@@ -9,7 +9,7 @@ import scala.sys.process._
 
 trait HttpDownloaderComponent {
 
-  def fileDownloader(url: String, filename: String) = {
+  def   fileDownloader(url: String, filename: String): String = {
     val localFileLoc = s"${LocalFileLocations.localHttpFileLocation}/$filename"
     downloadFile(url, localFileLoc)
   }
