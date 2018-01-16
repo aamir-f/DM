@@ -7,7 +7,7 @@ import org.apache.commons.net.ftp.{FTP, FTPClient}
 
 import scala.util.Try
 
-trait FtpDownloaderDM  extends Logger {
+trait FtpDownloader  extends Logger {
 
   val ftpServer = FtpCredentials.serverIp
   val ftpPort = FtpCredentials.serverPort
@@ -47,14 +47,14 @@ trait FtpDownloaderDM  extends Logger {
   }
 }
 
-object ImplFtpDownloaderDM extends FtpDownloaderDM
+object ImplFtpDownloader extends FtpDownloader
 
 
 object FtpCredentials extends ConfigurationReaderComponent {
   def serverIp: String = getConfigurationProperty("ftpCredentials.ftpServer")
-  def serverPort: String = getConfigurationProperty("ftpCredentials.ftpServer")
-  def serverUsername: String = getConfigurationProperty("ftpCredentials.ftpServer")
-  def serverPassword: String = getConfigurationProperty("ftpCredentials.ftpServer")
+  def serverPort: String = getConfigurationProperty("ftpCredentials.ftpPort")
+  def serverUsername: String = getConfigurationProperty("ftpCredentials.ftpUsername")
+  def serverPassword: String = getConfigurationProperty("ftpCredentials.ftpPassword")
   val localFileSaveLocation: String = getConfigurationProperty("ftpCredentials.localDownloadLocation")
 }
 

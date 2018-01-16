@@ -18,6 +18,7 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" % "akka-cluster-tools_2.11" % "2.4.17",
   "com.typesafe.akka" % "akka-remote_2.11" % "2.4.17",
   "org.json4s" %% "json4s-jackson" % "3.5.3",
-  "joda-time" % "joda-time" % "2.9.9"
+  "joda-time" % "joda-time" % "2.9.9",
+  "com.jcraft" % "jsch" % "0.1.54"
 
 )
