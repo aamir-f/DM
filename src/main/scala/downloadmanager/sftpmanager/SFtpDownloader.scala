@@ -17,7 +17,7 @@ trait SFtpDownloader  extends Logger {
   val workingDirectory = SFtpCredentials.localFileSaveLocation
 
 
-  def downloadCsvFiles(sFtpFileUrl: String, fileName: String): Try[String] = {
+  def downloadSFtpFile(sFtpFileUrl: String, fileName: String): Try[String] = {
     Try {
        val session = SFTPClientGenerator.createSFTPClient
       connectToSFtpServer(session)

@@ -1,27 +1,36 @@
 package downloadmanager.httpmanager
 
-import akka.actor.{Actor, ReceiveTimeout, Terminated}
-import downloadmanager.utilities.{Logger, StartHttpDownload, SuccessResponse}
-
-import scala.concurrent.duration._
+import akka.actor.SupervisorStrategy.Resume
+import akka.actor.{Actor, ActorRef, OneForOneStrategy, Props, ReceiveTimeout, Terminated}
+import downloadmanager.utilities.HttpResponseTimeout._
+import downloadmanager.utilities.{InitiateHttpDownload, Logger, StartHttpDownload, SuccessResponse}
 class HttpDownloadActor extends Actor with Logger {
-  override def receive = {
-    case StartHttpDownload => {
-      context.setReceiveTimeout(5.minute)
-     //ask for download
+
+  override def receive:PartialFunction[Any,Unit] = {
+
+    case cmd:StartHttpDownload => {
+      context.setReceiveTimeout(timeout)
+       val downloadActor = context.actorOf(Props[HttpDownloaderComponent],"HttpDownloaderComponent")
+        downloadActor.tell(InitiateHttpDownload(cmd.url,cmd.fileName),ActorRef.noSender)
       context.become(waitingForResponse)
     }
   }
 
   def waitingForResponse:Receive = {
     case ReceiveTimeout => {
-      logger.error("")
+      val msg = s"#########Dowload taking too much time, aborting and restarting#############"
+      logger.info(msg)
     }
     case Terminated => {
-      //watch child downloader
+      val errMsg = "######Unexpected error:HttpClient is down#######"
+      logger.error(errMsg)
     }
     case cmd:SuccessResponse => {
       logger.info(cmd.msg)
     }
+  }
+
+  override val supervisorStrategy = OneForOneStrategy(loggingEnabled = true) {
+    case _:OutOfMemoryError => Resume
   }
 }
