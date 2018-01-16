@@ -15,7 +15,7 @@ trait FtpDownloader  extends Logger {
   val ftpPassword = FtpCredentials.serverPassword
 
 
-  def downloadCsvFiles(ftpFileUrl: String, fileName: String): Try[String] = {
+  def downloadFtpFile(ftpFileUrl: String, fileName: String): Try[String] = {
     Try {
 
       val ftpClient = FTPClientGenerator.createFTPClient
@@ -55,7 +55,7 @@ object FtpCredentials extends ConfigurationReaderComponent {
   def serverPort: String = getConfigurationProperty("ftpCredentials.ftpPort")
   def serverUsername: String = getConfigurationProperty("ftpCredentials.ftpUsername")
   def serverPassword: String = getConfigurationProperty("ftpCredentials.ftpPassword")
-  val localFileSaveLocation: String = getConfigurationProperty("ftpCredentials.localDownloadLocation")
+  val localFileSaveLocation: String = getConfigurationProperty("localFilePath")
 }
 
 object FTPClientGenerator {
