@@ -1,10 +1,8 @@
 package downloadmanager
 
 import akka.actor.Props
-import com.typesafe.scalalogging.{LazyLogging, Logger}
 import downloadmanager.httpmanager.HttpDownloadActor
 import downloadmanager.utilities._
-import org.slf4j.LoggerFactory
 
 trait Downloader {
   self:DownloadManagerFacadeComponent =>
@@ -26,20 +24,9 @@ object ImplDownloader extends Downloader with DownloadManagerFacade
 
 object ll extends App /*with Logger*/ {
 
-  val source1 = "http://www.java2s.com/Code/JarDownload/scalatest/scalatest-1.2.jar.zip"
+  val source1 = "http://uat.reactore.com:8081/artifactory/lib-test/build.sbt"
   val source2 = "ftp://other.file.com/ftpfile"
   val source3 = "sftp://and.also.this/sftpfile"
- //logger.info("###########testing logger############")
   val sourceList = List(source1,source2,source3)
   ImplDownloader.init(sourceList)
-}
-
-class MyClass extends LazyLogging {
-
-  logger.debug("This is very convenient ;-)")
-}
-
-object jj extends App {
-
-    new MyClass
 }
