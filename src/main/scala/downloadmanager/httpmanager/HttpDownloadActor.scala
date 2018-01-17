@@ -1,18 +1,25 @@
 package downloadmanager.httpmanager
 
+import java.io.File
+
 import akka.actor.SupervisorStrategy.Resume
 import akka.actor.{Actor, OneForOneStrategy, Props, ReceiveTimeout, Terminated}
 import downloadmanager.utilities.HttpResponseTimeout._
-import downloadmanager.utilities.{InitiateHttpDownload, Logger, StartHttpDownload, SuccessResponse}
+import downloadmanager.utilities._
+
+import scala.concurrent.duration.Duration
 
 class HttpDownloadActor(url: String, fileName: String) extends Actor with Logger {
+  var httpDownloaderActorRef = Actor.noSender
   /**
     * Here timeout is configurable depending upon network speed
     */
   override def receive: PartialFunction[Any, Unit] = {
     case StartHttpDownload => {
+      println("**************************")
       context.setReceiveTimeout(timeout)
-      val downloadActor = context.actorOf(Props[HttpDownloaderComponent], "HttpDownloaderComponent")
+      val downloadActor = context.actorOf(Props[HttpDownloaderComponent], "HttpDownloader")
+      httpDownloaderActorRef = downloadActor
       downloadActor ! InitiateHttpDownload(url, fileName)
       context.become(waitingForResponse)
     }
@@ -20,7 +27,12 @@ class HttpDownloadActor(url: String, fileName: String) extends Actor with Logger
 
   def waitingForResponse: Receive = {
     case ReceiveTimeout => {
-      val msg = s"#########Dowload taking too much time, aborting and restarting#############"
+      val msg = s"#########Dowload taking too much time, aborting and retrying download#############"
+      cancelReceiveTimeOut
+      context.stop(httpDownloaderActorRef)
+      removePartialDownloadLocalFile
+      context.become(receive)
+      self ! StartHttpDownload
       logger.info(msg)
     }
     case Terminated => {
@@ -35,4 +47,13 @@ class HttpDownloadActor(url: String, fileName: String) extends Actor with Logger
   override val supervisorStrategy = OneForOneStrategy(loggingEnabled = true) {
     case _: OutOfMemoryError => Resume
   }
+
+  def removePartialDownloadLocalFile = {
+    val localFileLoc = Utils.localDiskLocation
+    val localFile = s"$localFileLoc$fileName"
+    val file = new File(localFile)
+    file.delete()
+  }
+
+def cancelReceiveTimeOut = context.setReceiveTimeout(Duration.Undefined)
 }

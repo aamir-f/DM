@@ -17,6 +17,7 @@ class HttpDownloaderComponent extends Actor with Logger {
       val sender_ = sender()
 
       val result: Future[String] = fileDownloader(cmd.url, cmd.fileName)
+      //Thread.sleep(10000)
       result onComplete {
         case Success(_) => sender_ ! SuccessResponse("http download completed")
         case Failure(e) => {
@@ -33,9 +34,9 @@ class HttpDownloaderComponent extends Actor with Logger {
     }
   }
 
-  private def fileDownloader(url: String, filename: String): Future[String] = {
+  private def fileDownloader(url: String, fileName: String): Future[String] = {
     val localFileLoc = Utils.localDiskLocation
-    val localFile = s"$localFileLoc$filename"
+    val localFile = s"$localFileLoc$fileName"
     downloadFile(url, localFile)
   }
 

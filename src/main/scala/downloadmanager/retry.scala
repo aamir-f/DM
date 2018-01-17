@@ -42,32 +42,3 @@ class DeviceMissCallingActor(obj: TwoWaySerialComm2) extends  {
       context.stop(self)
         self ! PoisonPill
   }*/
-object hh extends App {
-
-  val s = ActorSystem("test")
-  val ar = s.actorOf(Props[A],"Aactor")
-  ar ! "abc"
-}
-
-class A extends Actor {
-  val sender_ = sender()
-  override def receive: Receive = {
-    case _:String => {
-      println("inside A receive block")
-      val b = context.actorOf(Props[B],"Bactor")
-      b ! 12
-    }
-  }
-}
-class B extends Actor {
-  override def receive: Receive = {
-    case _:Int => {
-      val sender_ = sender()
-      println("inside B actor")
-      println(self)
-      println(sender_)
-      println("inside B receive block")
-      sender_ ! 22
-    }
-  }
-}
