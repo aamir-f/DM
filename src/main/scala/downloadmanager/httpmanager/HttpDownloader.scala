@@ -4,14 +4,14 @@ import java.io.File
 import java.net.URL
 
 import akka.actor.{Actor, PoisonPill}
-import downloadmanager.utilities.{InitiateHttpDownload, LocalFileLocations, Logger, SuccessResponse}
+import downloadmanager.utilities.{InitiateHttpDownload, LocalFileLocations/*, Logger*/, SuccessResponse}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 import scala.sys.process._
 import scala.util.{Failure, Success}
 
-class HttpDownloaderComponent extends Actor with Logger{
+class HttpDownloaderComponent extends Actor /*with Logger*/{
 
   override def receive: Receive = {
     case cmd:InitiateHttpDownload => {
@@ -25,7 +25,7 @@ class HttpDownloaderComponent extends Actor with Logger{
                |http download failed, ${e.printStackTrace()}
                |################################\n
              """.stripMargin
-          logger.error(errMsg)
+          //logger.error(errMsg)
           self ! PoisonPill
         }
       }

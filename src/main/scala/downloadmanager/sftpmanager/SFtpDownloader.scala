@@ -4,11 +4,11 @@ package downloadmanager.sftpmanager
 import java.io.{BufferedInputStream, BufferedOutputStream, File, FileOutputStream}
 import java.util.Properties
 import com.jcraft.jsch.{ChannelSftp, JSch, Session}
-import downloadmanager.utilities.{ConfigurationReaderComponent, Logger}
+import downloadmanager.utilities.{ConfigurationReaderComponent/*, Logger*/}
 import org.apache.commons.net.ftp.FTPClient
 import scala.util.Try
 
-trait SFtpDownloader  extends Logger {
+trait SFtpDownloader  /*extends Logger*/ {
 
   val ftpServer = SFtpCredentials.serverIp
   val ftpPort = SFtpCredentials.serverPort
@@ -39,7 +39,7 @@ trait SFtpDownloader  extends Logger {
       bis.close()
       bos.close()
       val succMsg = "downloading sftp resource completed"
-      logger.info(succMsg)
+      //logger.info(succMsg)
       succMsg
     }
   }

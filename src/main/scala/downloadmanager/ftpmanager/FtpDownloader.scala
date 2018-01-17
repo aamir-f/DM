@@ -2,12 +2,12 @@ package downloadmanager.ftpmanager
 
 import java.io.{BufferedOutputStream, File, FileOutputStream}
 
-import downloadmanager.utilities.{ConfigurationReaderComponent, Logger}
+import downloadmanager.utilities.{ConfigurationReaderComponent/*, Logger*/}
 import org.apache.commons.net.ftp.{FTP, FTPClient}
 
 import scala.util.Try
 
-trait FtpDownloader  extends Logger {
+trait FtpDownloader /* extends Logger*/ {
 
   val ftpServer = FtpCredentials.serverIp
   val ftpPort = FtpCredentials.serverPort
@@ -32,7 +32,7 @@ trait FtpDownloader  extends Logger {
 
       FTPClientGenerator.disconnect(ftpClient)
       val succMsg = "downloading ftp resource completed"
-      logger.info(succMsg)
+     // logger.info(succMsg)
       succMsg
     }
   }
@@ -43,7 +43,7 @@ trait FtpDownloader  extends Logger {
     ftpClient.login(ftpUsername, ftpPassword)
     ftpClient.setFileType(FTP.BINARY_FILE_TYPE)
     val msg = "ftp connection successful" + ftpClient.getReplyString
-    logger.info(msg)
+   // logger.info(msg)
   }
 }
 
