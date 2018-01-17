@@ -24,7 +24,8 @@ class HttpDownloadActor(url: String, fileName: String) extends Actor with Logger
       context.become(waitingForResponse)
     }
   }
-
+import scala.concurrent.duration._
+  import scala.concurrent.ExecutionContext.Implicits.global
   def waitingForResponse: Receive = {
     case ReceiveTimeout => {
       val msg = s"#########Dowload taking too much time, aborting and retrying download#############"
@@ -32,7 +33,7 @@ class HttpDownloadActor(url: String, fileName: String) extends Actor with Logger
       context.stop(httpDownloaderActorRef)
       removePartialDownloadLocalFile
       context.become(receive)
-      self ! StartHttpDownload
+      context.system.scheduler.scheduleOnce(4.second,self,StartHttpDownload)
       logger.info(msg)
     }
     case Terminated => {

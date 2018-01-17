@@ -12,6 +12,10 @@ import scala.sys.process._
 import scala.util.{Failure, Success}
 
 class HttpDownloaderComponent extends Actor with Logger {
+
+  override def preStart(): Unit = {
+    logger.info("#################About to download Http File#############")
+  }
   override def receive: Receive = {
     case cmd: InitiateHttpDownload => {
       val sender_ = sender()
