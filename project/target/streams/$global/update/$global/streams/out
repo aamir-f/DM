@@ -1,4 +1,4 @@
-[info] Updating ProjectRef(uri("file:/home/administrator/Source/DM/project/"), "dm-build")...
+[info] Updating ProjectRef(uri("file:/home/aamir/Sources/DM/project/"), "dm-build")...
 [debug] :: resolving dependencies :: default#dm-build;0.1.0-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool]
 [debug] 	validate = true
@@ -727,80 +727,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.apache.logging.log4j#log4j-api;2.8.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.logging.log4j#log4j-api;2.8.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging.log4j/log4j-api/2.8.1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging.log4j/log4j-api/2.8.1/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.logging.log4j#log4j-api;2.8.1
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging.log4j/log4j-api/2.8.1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging.log4j/log4j-api/2.8.1/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.logging.log4j#log4j-api;2.8.1
-[debug] 		tried /home/administrator/.ivy2/local/org.apache.logging.log4j/log4j-api/2.8.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.logging.log4j#log4j-api;2.8.1
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom
-[debug] 	public: found md file for org.apache.logging.log4j#log4j-api;2.8.1
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom (2.8.1)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom
-[debug] 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-api;2.8.1!log4j-api.pom(pom.original) (1238ms)
-[debug] sbt-chain: Checking cache for: dependency: org.apache.logging.log4j#log4j;2.8.1 {}
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.logging.log4j#log4j;2.8.1 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging.log4j/log4j/2.8.1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging.log4j/log4j/2.8.1/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.logging.log4j#log4j;2.8.1
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging.log4j/log4j/2.8.1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging.log4j/log4j/2.8.1/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.logging.log4j#log4j;2.8.1
-[debug] 		tried /home/administrator/.ivy2/local/org.apache.logging.log4j/log4j/2.8.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.logging.log4j#log4j;2.8.1
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom
-[debug] 	public: found md file for org.apache.logging.log4j#log4j;2.8.1
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom (2.8.1)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom
-[debug] 	[SUCCESSFUL ] org.apache.logging.log4j#log4j;2.8.1!log4j.pom(pom.original) (1670ms)
-[debug] sbt-chain: Checking cache for: dependency: org.apache.logging#logging-parent;1 {}
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.logging#logging-parent;1 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging/logging-parent/1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging/logging-parent/1/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.logging#logging-parent;1
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging/logging-parent/1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging/logging-parent/1/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.logging#logging-parent;1
-[debug] 		tried /home/administrator/.ivy2/local/org.apache.logging/logging-parent/1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.logging#logging-parent;1
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/logging/logging-parent/1/logging-parent-1.pom
-[debug] 	public: found md file for org.apache.logging#logging-parent;1
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/logging/logging-parent/1/logging-parent-1.pom (1)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/logging/logging-parent/1/logging-parent-1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/logging/logging-parent/1/logging-parent-1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/logging/logging-parent/1/logging-parent-1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/logging/logging-parent/1/logging-parent-1.pom
-[debug] 	[SUCCESSFUL ] org.apache.logging#logging-parent;1!logging-parent.pom(pom.original) (1206ms)
-[debug] sbt-chain: Checking cache for: dependency: org.apache#apache;18 {}
-[debug] sbt-chain: module revision found in cache: org.apache#apache;18
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging/logging-parent/1/jars/logging-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging/logging-parent/1/jars/logging-parent.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging/logging-parent/1/jars/logging-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging/logging-parent/1/jars/logging-parent.jar
-[debug] 		tried /home/administrator/.ivy2/local/org.apache.logging/logging-parent/1/jars/logging-parent.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/logging/logging-parent/1/logging-parent-1.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/logging/logging-parent/1/logging-parent-1.jar
-[debug] 		tried /home/administrator/.sbt/preloaded/org.apache.logging/logging-parent/1/jars/logging-parent.jar
-[debug] 		tried file:////home/administrator/.sbt/preloaded/org/apache/logging/logging-parent/1/logging-parent-1.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging.log4j/log4j/2.8.1/jars/log4j.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging.log4j/log4j/2.8.1/jars/log4j.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging.log4j/log4j/2.8.1/jars/log4j.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging.log4j/log4j/2.8.1/jars/log4j.jar
-[debug] 		tried /home/administrator/.ivy2/local/org.apache.logging.log4j/log4j/2.8.1/jars/log4j.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.jar
-[debug] 		tried /home/administrator/.sbt/preloaded/org.apache.logging.log4j/log4j/2.8.1/jars/log4j.jar
-[debug] 		tried file:////home/administrator/.sbt/preloaded/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.jar
-[debug] 	found org.apache.logging.log4j#log4j-api;2.8.1 in public
+[debug] sbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-api;2.8.1
+[debug] 	found org.apache.logging.log4j#log4j-api;2.8.1 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#util-logging_2.12;1.1.2->org.apache.logging.log4j#log4j-api;2.8.1 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-sbt#util-logging_2.12;1.1.2->org.apache.logging.log4j#log4j-core;2.8.1 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -832,26 +760,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.apache.logging.log4j#log4j-core;2.8.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.logging.log4j#log4j-core;2.8.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging.log4j/log4j-core/2.8.1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging.log4j/log4j-core/2.8.1/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.logging.log4j#log4j-core;2.8.1
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging.log4j/log4j-core/2.8.1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging.log4j/log4j-core/2.8.1/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.logging.log4j#log4j-core;2.8.1
-[debug] 		tried /home/administrator/.ivy2/local/org.apache.logging.log4j/log4j-core/2.8.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.logging.log4j#log4j-core;2.8.1
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.pom
-[debug] 	public: found md file for org.apache.logging.log4j#log4j-core;2.8.1
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.pom (2.8.1)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.pom
-[debug] 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.pom(pom.original) (1239ms)
-[debug] sbt-chain: Checking cache for: dependency: org.apache.logging.log4j#log4j;2.8.1 {}
-[debug] sbt-chain: module revision found in cache: org.apache.logging.log4j#log4j;2.8.1
-[debug] 	found org.apache.logging.log4j#log4j-core;2.8.1 in public
+[debug] sbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-core;2.8.1
+[debug] 	found org.apache.logging.log4j#log4j-core;2.8.1 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#util-logging_2.12;1.1.2->org.apache.logging.log4j#log4j-core;2.8.1 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-sbt#util-logging_2.12;1.1.2->com.lmax#disruptor;3.3.6 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -2055,14 +1965,14 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 in sbt-chain
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe#ssl-config-core_2.12;0.2.2->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4->org.scala-lang#scala-library;2.12.4 [compile->master(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
 [debug] == resolving dependencies com.eed3si9n#gigahorse-core_2.12;0.3.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -2183,7 +2093,7 @@
 [debug] sbt-chain: module revision found in cache: com.squareup.okhttp3#okhttp;3.7.0
 [debug] 	found com.squareup.okhttp3#okhttp;3.7.0 in sbt-chain
 [debug] == resolving dependencies com.eed3si9n#gigahorse-okhttp_2.12;0.3.0->com.squareup.okhttp3#okhttp;3.7.0 [compile->compile(*)]
-[debug] == resolving dependencies com.squareup.okhttp3#okhttp;3.7.0->com.squareup.okio#okio;1.12.0 [compile->master(*)]
+[debug] == resolving dependencies com.squareup.okhttp3#okhttp;3.7.0->com.squareup.okio#okio;1.12.0 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -2216,7 +2126,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] sbt-chain: Checking cache for: dependency: com.squareup.okio#okio;1.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: Checking cache for: dependency: com.squareup.okio#okio;1.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: com.squareup.okio#okio;1.12.0
 [debug] 	found com.squareup.okio#okio;1.12.0 in sbt-chain
 [debug] == resolving dependencies com.squareup.okhttp3#okhttp;3.7.0->com.squareup.okio#okio;1.12.0 [compile->compile(*)]
@@ -2253,7 +2163,7 @@
 [debug] sbt-chain: module revision found in cache: com.squareup.okhttp3#okhttp-urlconnection;3.7.0
 [debug] 	found com.squareup.okhttp3#okhttp-urlconnection;3.7.0 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#librarymanagement-core_2.12;1.1.2->com.squareup.okhttp3#okhttp-urlconnection;3.7.0 [compile->compile(*)]
-[debug] == resolving dependencies com.squareup.okhttp3#okhttp-urlconnection;3.7.0->com.squareup.okhttp3#okhttp;3.7.0 [compile->master(*)]
+[debug] == resolving dependencies com.squareup.okhttp3#okhttp-urlconnection;3.7.0->com.squareup.okhttp3#okhttp;3.7.0 [compile->master(compile)]
 [debug] == resolving dependencies com.squareup.okhttp3#okhttp-urlconnection;3.7.0->com.squareup.okhttp3#okhttp;3.7.0 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-sbt#librarymanagement-core_2.12;1.1.2->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -3432,26 +3342,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.apache.logging.log4j#log4j-slf4j-impl;2.8.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.logging.log4j#log4j-slf4j-impl;2.8.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging.log4j/log4j-slf4j-impl/2.8.1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.logging.log4j/log4j-slf4j-impl/2.8.1/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.logging.log4j#log4j-slf4j-impl;2.8.1
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging.log4j/log4j-slf4j-impl/2.8.1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.logging.log4j/log4j-slf4j-impl/2.8.1/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.logging.log4j#log4j-slf4j-impl;2.8.1
-[debug] 		tried /home/administrator/.ivy2/local/org.apache.logging.log4j/log4j-slf4j-impl/2.8.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.logging.log4j#log4j-slf4j-impl;2.8.1
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.8.1/log4j-slf4j-impl-2.8.1.pom
-[debug] 	public: found md file for org.apache.logging.log4j#log4j-slf4j-impl;2.8.1
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.8.1/log4j-slf4j-impl-2.8.1.pom (2.8.1)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.8.1/log4j-slf4j-impl-2.8.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.8.1/log4j-slf4j-impl-2.8.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.8.1/log4j-slf4j-impl-2.8.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.8.1/log4j-slf4j-impl-2.8.1.pom
-[debug] 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-slf4j-impl;2.8.1!log4j-slf4j-impl.pom(pom.original) (1208ms)
-[debug] sbt-chain: Checking cache for: dependency: org.apache.logging.log4j#log4j;2.8.1 {}
-[debug] sbt-chain: module revision found in cache: org.apache.logging.log4j#log4j;2.8.1
-[debug] 	found org.apache.logging.log4j#log4j-slf4j-impl;2.8.1 in public
+[debug] sbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-slf4j-impl;2.8.1
+[debug] 	found org.apache.logging.log4j#log4j-slf4j-impl;2.8.1 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#main_2.12;1.1.0->org.apache.logging.log4j#log4j-slf4j-impl;2.8.1 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.logging.log4j#log4j-slf4j-impl;2.8.1->org.slf4j#slf4j-api;1.7.24 [compile->master(compile)]
 [debug] == resolving dependencies org.apache.logging.log4j#log4j-slf4j-impl;2.8.1->org.slf4j#slf4j-api;1.7.25 [compile->master(compile)]
@@ -6332,14 +6224,14 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe#ssl-config-core_2.12;0.2.2->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4->org.scala-lang#scala-library;2.12.4 [compile->master(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
 [debug] == resolving dependencies com.eed3si9n#gigahorse-core_2.12;0.3.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -6469,7 +6361,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] == resolving dependencies com.eed3si9n#gigahorse-okhttp_2.12;0.3.0->com.squareup.okhttp3#okhttp;3.7.0 [compile->compile(*)]
-[debug] == resolving dependencies com.squareup.okhttp3#okhttp;3.7.0->com.squareup.okio#okio;1.12.0 [compile->master(*)]
+[debug] == resolving dependencies com.squareup.okhttp3#okhttp;3.7.0->com.squareup.okio#okio;1.12.0 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -6545,7 +6437,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] == resolving dependencies org.scala-sbt#librarymanagement-core_2.12;1.1.2->com.squareup.okhttp3#okhttp-urlconnection;3.7.0 [compile->compile(*)]
-[debug] == resolving dependencies com.squareup.okhttp3#okhttp-urlconnection;3.7.0->com.squareup.okhttp3#okhttp;3.7.0 [compile->master(*)]
+[debug] == resolving dependencies com.squareup.okhttp3#okhttp-urlconnection;3.7.0->com.squareup.okhttp3#okhttp;3.7.0 [compile->master(compile)]
 [debug] == resolving dependencies com.squareup.okhttp3#okhttp-urlconnection;3.7.0->com.squareup.okhttp3#okhttp;3.7.0 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-sbt#librarymanagement-core_2.12;1.1.2->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -10872,14 +10764,14 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.typesafe#ssl-config-core_2.12;0.2.2->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [compile->compile(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4->org.scala-lang#scala-library;2.12.4 [compile->master(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
 [debug] == resolving dependencies com.eed3si9n#gigahorse-core_2.12;0.3.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -11021,7 +10913,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] == resolving dependencies com.eed3si9n#gigahorse-okhttp_2.12;0.3.0->com.squareup.okhttp3#okhttp;3.7.0 [compile->compile(*)]
-[debug] == resolving dependencies com.squareup.okhttp3#okhttp;3.7.0->com.squareup.okio#okio;1.12.0 [compile->master(*)]
+[debug] == resolving dependencies com.squareup.okhttp3#okhttp;3.7.0->com.squareup.okio#okio;1.12.0 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -11105,7 +10997,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.4 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.4 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] == resolving dependencies org.scala-sbt#librarymanagement-core_2.12;1.1.2->com.squareup.okhttp3#okhttp-urlconnection;3.7.0 [compile->compile(*)]
-[debug] == resolving dependencies com.squareup.okhttp3#okhttp-urlconnection;3.7.0->com.squareup.okhttp3#okhttp;3.7.0 [compile->master(*)]
+[debug] == resolving dependencies com.squareup.okhttp3#okhttp-urlconnection;3.7.0->com.squareup.okhttp3#okhttp;3.7.0 [compile->master(compile)]
 [debug] == resolving dependencies com.squareup.okhttp3#okhttp-urlconnection;3.7.0->com.squareup.okhttp3#okhttp;3.7.0 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-sbt#librarymanagement-core_2.12;1.1.2->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-compiler;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -13377,53 +13269,39 @@
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-sbt#util-interface;1.1.2!util-interface.jar
-[debug] 	[NOT REQUIRED] com.squareup.okio#okio;1.12.0!okio.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#launcher-interface;1.0.2!launcher-interface.jar
-[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;3.3.1!protobuf-java.jar(bundle)
-[debug] no default ivy user dir defined: set to /home/administrator/.ivy2
-[debug] no default ivy user dir defined: set to /home/administrator/.ivy2
-[debug] no default ivy user dir defined: set to /home/administrator/.ivy2
-[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-persist_2.12;1.1.0!zinc-persist_2.12.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar
-[debug] no default ivy user dir defined: set to /home/administrator/.ivy2
-[debug] no default ivy user dir defined: set to /home/administrator/.ivy2
-[debug] no default ivy user dir defined: set to /home/administrator/.ivy2
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-interface;1.1.2!util-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#zinc-compile_2.12;1.1.0!zinc-compile_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#sbinary_2.12;0.4.4!sbinary_2.12.jar
-[debug] no default ivy user dir defined: set to /home/administrator/.ivy2
-[debug] no default ivy user dir defined: set to /home/administrator/.ivy2
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/administrator/.ivy2/cache
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/administrator/.ivy2/cache
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/administrator/.ivy2/cache
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/administrator/.ivy2/cache
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/administrator/.ivy2/cache
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/administrator/.ivy2/cache
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (17ms)
-[debug] 	default cache: /home/administrator/.ivy2/cache
+[debug] no default ivy user dir defined: set to /home/aamir/.ivy2
+[debug] no default ivy user dir defined: set to /home/aamir/.ivy2
+[debug] no default ivy user dir defined: set to /home/aamir/.ivy2
+[debug] including url: jar:file:/home/aamir/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/aamir/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/aamir/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 	[NOT REQUIRED] com.squareup.okio#okio;1.12.0!okio.jar
+[debug] no default ivy user dir defined: set to /home/aamir/.ivy2
+[debug] no default cache defined: set to /home/aamir/.ivy2/cache
+[debug] including url: jar:file:/home/aamir/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/aamir/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /home/aamir/.ivy2/cache
+[debug] including url: jar:file:/home/aamir/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /home/aamir/.ivy2/cache
+[debug] including url: jar:file:/home/aamir/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/aamir/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default cache defined: set to /home/aamir/.ivy2/cache
+[debug] including url: jar:file:/home/aamir/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/aamir/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/aamir/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/aamir/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/aamir/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/aamir/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/aamir/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/aamir/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/aamir/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/aamir/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/aamir/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] settings loaded (52ms)
+[debug] 	default cache: /home/aamir/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
 [debug] 	shared [file]
@@ -13431,61 +13309,8 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] settings loaded (15ms)
-[debug] 	default cache: /home/administrator/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] no default cache defined: set to /home/administrator/.ivy2/cache
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/administrator/.ivy2/cache
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] com.trueaccord.lenses#lenses_2.12;0.4.12!lenses_2.12.jar
-[debug] 	[NOT REQUIRED] com.lmax#disruptor;3.3.6!disruptor.jar
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] com.lihaoyi#fastparse_2.12;0.4.2!fastparse_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#util-cache_2.12;1.1.2!util-cache_2.12.jar
-[debug] settings loaded (20ms)
-[debug] 	default cache: /home/administrator/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	[NOT REQUIRED] com.eed3si9n#sjson-new-murmurhash_2.12;0.8.2!sjson-new-murmurhash_2.12.jar
-[debug] 	-- 5 resolvers:
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] com.github.cb372#scalacache-core_2.12;0.20.0!scalacache-core_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;1.1.0!test-agent.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#sbt;1.1.0!sbt.jar
-[debug] 	[NOT REQUIRED] com.github.ben-manes.caffeine#caffeine;2.5.6!caffeine.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-classfile_2.12;1.1.0!zinc-classfile_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#main_2.12;1.1.0!main_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310!ivy.jar
-[debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.46!jsch.jar
-[debug] 	[NOT REQUIRED] com.eed3si9n#gigahorse-okhttp_2.12;0.3.0!gigahorse-okhttp_2.12.jar
-[debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#logic_2.12;1.1.0!logic_2.12.jar
-[debug] 	[NOT REQUIRED] com.squareup.okhttp3#okhttp-urlconnection;3.7.0!okhttp-urlconnection.jar
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] org.scala-sbt#actions_2.12;1.1.0!actions_2.12.jar
-[debug] 	[NOT REQUIRED] com.eed3si9n#gigahorse-core_2.12;0.3.0!gigahorse-core_2.12.jar
-[debug] settings loaded (20ms)
-[debug] 	default cache: /home/administrator/.ivy2/cache
+[debug] settings loaded (62ms)
+[debug] 	default cache: /home/aamir/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
 [debug] 	shared [file]
@@ -13493,66 +13318,61 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.scala-sbt#main-settings_2.12;1.1.0!main-settings_2.12.jar
-[debug] 	[NOT REQUIRED] com.squareup.okhttp3#okhttp;3.7.0!okhttp.jar
-[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-sbt#run_2.12;1.1.0!run_2.12.jar
-[debug] 	[NOT REQUIRED] com.lihaoyi#fastparse-utils_2.12;0.4.2!fastparse-utils_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#command_2.12;1.1.0!command_2.12.jar
-[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar
-[debug] 	[NOT REQUIRED] com.lihaoyi#sourcecode_2.12;0.1.3!sourcecode_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#collections_2.12;1.1.0!collections_2.12.jar
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#core-macros_2.12;1.1.0!core-macros_2.12.jar
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-sbt#protocol_2.12;1.1.0!protocol_2.12.jar
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-compile-core_2.12;1.1.0!zinc-compile-core_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.5!scala-parser-combinators_2.12.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-core_2.12;1.1.0!zinc-core_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#io_2.12;1.1.3!io_2.12.jar
-[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#testing_2.12;1.1.0!testing_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#util-logging_2.12;1.1.2!util-logging_2.12.jar
-[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-slf4j-impl;2.8.1!log4j-slf4j-impl.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#util-tracking_2.12;1.1.2!util-tracking_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-classpath_2.12;1.1.0!zinc-classpath_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#librarymanagement-core_2.12;1.1.2!librarymanagement-core_2.12.jar
-[debug] settings loaded (29ms)
-[debug] 	default cache: /home/administrator/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	[NOT REQUIRED] org.scala-sbt#librarymanagement-ivy_2.12;1.1.2!librarymanagement-ivy_2.12.jar
-[debug] 	default [chain] [local, main]
-[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-apiinfo_2.12;1.1.0!zinc-apiinfo_2.12.jar
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-ivy-integration_2.12;1.1.0!zinc-ivy-integration_2.12.jar
-[debug] 	[NOT REQUIRED] com.github.cb372#scalacache-caffeine_2.12;0.20.0!scalacache-caffeine_2.12.jar
-[debug] 	[NOT REQUIRED] com.trueaccord.scalapb#scalapb-runtime_2.12;0.6.0!scalapb-runtime_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#zinc_2.12;1.1.0!zinc_2.12.jar
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-relation_2.12;1.1.2!util-relation_2.12.jar
+[debug] 	[NOT REQUIRED] com.eed3si9n#sjson-new-scalajson_2.12;0.8.2!sjson-new-scalajson_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-position_2.12;1.1.2!util-position_2.12.jar
+[debug] 	[NOT REQUIRED] com.eed3si9n#sjson-new-core_2.12;0.8.2!sjson-new-core_2.12.jar
 [debug] 	[NOT REQUIRED] com.eed3si9n#shaded-scalajson_2.12;1.0.0-M4!shaded-scalajson_2.12.jar
-[debug] 	[NOT REQUIRED] jline#jline;2.14.4!jline.jar
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/aamir/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	[NOT REQUIRED] com.lmax#disruptor;3.3.6!disruptor.jar
 [debug] 	[NOT REQUIRED] org.spire-math#jawn-parser_2.12;0.10.4!jawn-parser_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#util-control_2.12;1.1.2!util-control_2.12.jar
+[debug] settings loaded (35ms)
+[debug] 	default cache: /home/aamir/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
 [debug] 	[NOT REQUIRED] org.scala-sbt#completion_2.12;1.1.0!completion_2.12.jar
-[debug] 	[NOT REQUIRED] net.java.dev.jna#jna;4.5.0!jna.jar
-[debug] 	[NOT REQUIRED] net.java.dev.jna#jna-platform;4.5.0!jna-platform.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#task-system_2.12;1.1.0!task-system_2.12.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#tasks_2.12;1.1.0!tasks_2.12.jar
-[debug] 	[NOT REQUIRED] com.eed3si9n#sjson-new-scalajson_2.12;0.8.2!sjson-new-scalajson_2.12.jar
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] org.scala-sbt#util-position_2.12;1.1.2!util-position_2.12.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;1.1.0!compiler-interface.jar
-[debug] 	[NOT REQUIRED] com.eed3si9n#sjson-new-core_2.12;0.8.2!sjson-new-core_2.12.jar
-[debug] settings loaded (33ms)
-[debug] 	default cache: /home/administrator/.ivy2/cache
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-cache_2.12;1.1.2!util-cache_2.12.jar
+[debug] 	[NOT REQUIRED] com.eed3si9n#sjson-new-murmurhash_2.12;0.8.2!sjson-new-murmurhash_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;1.1.0!test-agent.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-compile-core_2.12;1.1.0!zinc-compile-core_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-classfile_2.12;1.1.0!zinc-classfile_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.5!scala-parser-combinators_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.46!jsch.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-core_2.12;1.1.0!zinc-core_2.12.jar
+[debug] 	[NOT REQUIRED] com.eed3si9n#gigahorse-okhttp_2.12;0.3.0!gigahorse-okhttp_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-persist_2.12;1.1.0!zinc-persist_2.12.jar
+[debug] 	[NOT REQUIRED] com.trueaccord.scalapb#scalapb-runtime_2.12;0.6.0!scalapb-runtime_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#testing_2.12;1.1.0!testing_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#sbinary_2.12;0.4.4!sbinary_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-tracking_2.12;1.1.2!util-tracking_2.12.jar
+[debug] 	[NOT REQUIRED] com.trueaccord.lenses#lenses_2.12;0.4.12!lenses_2.12.jar
+[debug] 	[NOT REQUIRED] com.lihaoyi#fastparse_2.12;0.4.2!fastparse_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-classpath_2.12;1.1.0!zinc-classpath_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-apiinfo_2.12;1.1.0!zinc-apiinfo_2.12.jar
+[debug] 	[NOT REQUIRED] com.squareup.okhttp3#okhttp-urlconnection;3.7.0!okhttp-urlconnection.jar
+[debug] 	[NOT REQUIRED] com.eed3si9n#gigahorse-core_2.12;0.3.0!gigahorse-core_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc-ivy-integration_2.12;1.1.0!zinc-ivy-integration_2.12.jar
+[debug] 	[NOT REQUIRED] com.squareup.okhttp3#okhttp;3.7.0!okhttp.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#zinc_2.12;1.1.0!zinc_2.12.jar
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.4!jline.jar
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-control_2.12;1.1.2!util-control_2.12.jar
+[debug] 	[NOT REQUIRED] net.java.dev.jna#jna;4.5.0!jna.jar
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(bundle)
+[debug] settings loaded (76ms)
+[debug] 	default cache: /home/aamir/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
 [debug] 	shared [file]
@@ -13560,39 +13380,47 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	[NOT REQUIRED] net.java.dev.jna#jna-platform;4.5.0!jna-platform.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#sbt;1.1.0!sbt.jar
+[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;3.3.1!protobuf-java.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-sbt#main_2.12;1.1.0!main_2.12.jar
+[debug] 	[NOT REQUIRED] com.lihaoyi#fastparse-utils_2.12;0.4.2!fastparse-utils_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#launcher-interface;1.0.2!launcher-interface.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#logic_2.12;1.1.0!logic_2.12.jar
+[debug] 	[NOT REQUIRED] com.lihaoyi#sourcecode_2.12;0.1.3!sourcecode_2.12.jar
 [debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-api;2.8.1!log4j-api.jar
-[debug] settings loaded (31ms)
-[debug] 	default cache: /home/administrator/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/administrator/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.0/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] org.scala-sbt#util-relation_2.12;1.1.2!util-relation_2.12.jar
-[debug] settings loaded (35ms)
-[debug] 	default cache: /home/administrator/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] :: resolution report :: resolve 23983ms :: artifacts dl 100ms
-[debug] 	report for default#dm-build;0.1.0-SNAPSHOT compile produced in /home/administrator/Source/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-compile.xml
-[debug] 	report for default#dm-build;0.1.0-SNAPSHOT runtime produced in /home/administrator/Source/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-runtime.xml
-[debug] 	report for default#dm-build;0.1.0-SNAPSHOT test produced in /home/administrator/Source/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-test.xml
-[debug] 	report for default#dm-build;0.1.0-SNAPSHOT provided produced in /home/administrator/Source/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-provided.xml
-[debug] 	report for default#dm-build;0.1.0-SNAPSHOT optional produced in /home/administrator/Source/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-optional.xml
-[debug] 	report for default#dm-build;0.1.0-SNAPSHOT compile-internal produced in /home/administrator/Source/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-compile-internal.xml
-[debug] 	report for default#dm-build;0.1.0-SNAPSHOT runtime-internal produced in /home/administrator/Source/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-runtime-internal.xml
-[debug] 	report for default#dm-build;0.1.0-SNAPSHOT test-internal produced in /home/administrator/Source/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-test-internal.xml
-[debug] 	report for default#dm-build;0.1.0-SNAPSHOT plugin produced in /home/administrator/Source/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-plugin.xml
-[debug] 	report for default#dm-build;0.1.0-SNAPSHOT pom produced in /home/administrator/Source/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-pom.xml
-[debug] 	report for default#dm-build;0.1.0-SNAPSHOT scala-tool produced in /home/administrator/Source/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-scala-tool.xml
-[debug] 	resolve done (23983ms resolve - 100ms download)
+[debug] 	[NOT REQUIRED] org.scala-sbt#actions_2.12;1.1.0!actions_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#core-macros_2.12;1.1.0!core-macros_2.12.jar
+[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#protocol_2.12;1.1.0!protocol_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#main-settings_2.12;1.1.0!main-settings_2.12.jar
+[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-slf4j-impl;2.8.1!log4j-slf4j-impl.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#run_2.12;1.1.0!run_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#command_2.12;1.1.0!command_2.12.jar
+[debug] 	[NOT REQUIRED] com.github.cb372#scalacache-core_2.12;0.20.0!scalacache-core_2.12.jar
+[debug] 	[NOT REQUIRED] com.github.cb372#scalacache-caffeine_2.12;0.20.0!scalacache-caffeine_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#collections_2.12;1.1.0!collections_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#io_2.12;1.1.3!io_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-sbt#util-logging_2.12;1.1.2!util-logging_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#librarymanagement-core_2.12;1.1.2!librarymanagement-core_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#librarymanagement-ivy_2.12;1.1.2!librarymanagement-ivy_2.12.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;1.1.0!compiler-interface.jar
+[debug] 	[NOT REQUIRED] com.github.ben-manes.caffeine#caffeine;2.5.6!caffeine.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310!ivy.jar
+[debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar
+[debug] :: resolution report :: resolve 2055ms :: artifacts dl 233ms
+[debug] 	report for default#dm-build;0.1.0-SNAPSHOT compile produced in /home/aamir/Sources/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-compile.xml
+[debug] 	report for default#dm-build;0.1.0-SNAPSHOT runtime produced in /home/aamir/Sources/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-runtime.xml
+[debug] 	report for default#dm-build;0.1.0-SNAPSHOT test produced in /home/aamir/Sources/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-test.xml
+[debug] 	report for default#dm-build;0.1.0-SNAPSHOT provided produced in /home/aamir/Sources/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-provided.xml
+[debug] 	report for default#dm-build;0.1.0-SNAPSHOT optional produced in /home/aamir/Sources/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-optional.xml
+[debug] 	report for default#dm-build;0.1.0-SNAPSHOT compile-internal produced in /home/aamir/Sources/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-compile-internal.xml
+[debug] 	report for default#dm-build;0.1.0-SNAPSHOT runtime-internal produced in /home/aamir/Sources/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-runtime-internal.xml
+[debug] 	report for default#dm-build;0.1.0-SNAPSHOT test-internal produced in /home/aamir/Sources/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-test-internal.xml
+[debug] 	report for default#dm-build;0.1.0-SNAPSHOT plugin produced in /home/aamir/Sources/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-plugin.xml
+[debug] 	report for default#dm-build;0.1.0-SNAPSHOT pom produced in /home/aamir/Sources/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-pom.xml
+[debug] 	report for default#dm-build;0.1.0-SNAPSHOT scala-tool produced in /home/aamir/Sources/DM/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-scala-tool.xml
+[debug] 	resolve done (2055ms resolve - 233ms download)
 [info] Done updating.

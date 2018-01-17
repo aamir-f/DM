@@ -15,7 +15,7 @@ class HttpDownloaderClosureSpec extends WordSpec with MockitoSugar with Matchers
   "Ftp Downloader closure" must {
     "download the Ftp resource from remote location" in {
       val downloadResult = "file download completed"
-      when(MockHttpDownloader.ftpDownloader.fileDownloader(any[String],any[String])).thenReturn(downloadResult)
+      //when(MockHttpDownloader.ftpDownloader.fileDownloader(any[String],any[String])).thenReturn(downloadResult)
     }
   }
 
