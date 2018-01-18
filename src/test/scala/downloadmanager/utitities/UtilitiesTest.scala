@@ -6,7 +6,7 @@ import org.scalatest.{Matchers, WordSpec}
 class UtilitiesTest extends WordSpec with Matchers {
 
   "Utilities Test" should {
-    "split the url and retrieve file name from  it" in {
+    "split the http url and retrieve file name from  it" in {
       val url = "http://uat.somedomain.com:8081/artifactory/lib-test/build.sbt"
       val expectedResult = "build.sbt"
       val result = Utils.extractFileNameFromFTPUrl(url)

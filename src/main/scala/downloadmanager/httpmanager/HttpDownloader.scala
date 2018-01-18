@@ -17,7 +17,7 @@ class HttpDownloaderComponent(actorRef:Option[ActorRef]) extends Actor with Logg
     logger.info("#################About to download Http File#############")
   }
   override def receive: Receive = {
-    case cmd: InitiateHttpDownload => {
+    case cmd: InitiateDownload => {
       val sender_ = sender()
 
       val result: Future[String] = fileDownloader(cmd.url, cmd.fileName)

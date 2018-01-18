@@ -16,21 +16,20 @@ class FtpDownloadActor(url: String, fileName: String, actorRef:Option[ActorRef])
   var RETRY_ATTEMPT = IntValues.ZERO
 
   override def receive: PartialFunction[Any, Unit] = {
-    case StartHttpDownload => {
+    case StartDownload => {
       if(RETRY_ATTEMPT < Utils.maxDownloadRetries.toInt) {
         RETRY_ATTEMPT += 1
-        println("**************************")
         /**
           * Here timeout is configurable depending upon network speed, content size
           */
         context.setReceiveTimeout(timeout)
-        val downloadActor = context.actorOf(Props( new HttpDownloaderComponent(None)), "HttpDownloader")
+        val downloadActor = context.actorOf(Props(new FtpDownloaderComponent(None)), "FtpDownloader")
         ftpDownloaderActorRef = downloadActor
-        downloadActor ! InitiateHttpDownload(url, fileName)
+        downloadActor ! InitiateDownload(url, fileName)
         context.become(waitingForResponse)
         actorRef.foreach(_ ! "Download Started")
       } else {
-        val msg = s"#########FtpClient:Unable to download resource after max tries,please check your url#############"
+        val msg = s"\n#########FtpClient:Unable to download resource after max tries,please check your url#############"
         logger.error(msg)
         self ! PoisonPill
       }
@@ -39,12 +38,12 @@ class FtpDownloadActor(url: String, fileName: String, actorRef:Option[ActorRef])
 
   def waitingForResponse: Receive = {
     case ReceiveTimeout => {
-      val msg = s"#########Dowload taking too much time, aborting and retrying download#############"
+      val msg = s"#########FtpClient:::Dowload taking too much time, aborting and retrying download#############"
       cancelReceiveTimeOut
       context.stop(ftpDownloaderActorRef)
       removePartialDownloadLocalFile
       context.become(receive)
-      context.system.scheduler.scheduleOnce(4.second,self,StartHttpDownload)
+      context.system.scheduler.scheduleOnce(4.second,self,StartDownload)
       logger.error(msg)
     }
     case Terminated => {

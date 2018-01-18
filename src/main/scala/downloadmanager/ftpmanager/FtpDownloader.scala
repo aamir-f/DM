@@ -14,16 +14,16 @@ import scala.util.{Failure, Success}
 class FtpDownloaderComponent(actorRef:Option[ActorRef]) extends Actor with Logger {
 
   override def preStart(): Unit = {
-    logger.info("#################About to download Http File#############")
+    logger.info("#################About to download ftp File#############")
   }
   override def receive: Receive = {
-    case cmd: InitiateHttpDownload => {
+    case cmd: InitiateDownload => {
       val sender_ = sender()
 
-      val result: Future[String] = fileDownloader(cmd.url, cmd.fileName)
+      val result: Future[String] = ImplFtpDownloader.downloadFtpFile(cmd.url,cmd.fileName)
       result onComplete {
         case Success(_) => {
-          val msg = s"###############ft download completed###############################"
+          val msg = s"###############ftp download completed###############################"
           sender_ ! SuccessResponse(msg)
         }
         case Failure(e) => {
@@ -53,18 +53,14 @@ class FtpDownloaderComponent(actorRef:Option[ActorRef]) extends Actor with Logge
 }
 
 object FtpDownloader extends FtpDownloaderComponent(None)
-/**
-  *
-  * package downloadmanager.ftpmanager
 
 import java.io.{BufferedOutputStream, File, FileOutputStream}
 
-import downloadmanager.utilities.{ConfigurationReaderComponent/*, Logger*/}
+import downloadmanager.utilities.ConfigurationReaderComponent
 import org.apache.commons.net.ftp.{FTP, FTPClient}
 
-import scala.util.Try
 
-trait FtpDownloader /* extends Logger*/ {
+trait FtpDownloader extends Logger {
 
   val ftpServer = FtpCredentials.serverIp
   val ftpPort = FtpCredentials.serverPort
@@ -72,8 +68,8 @@ trait FtpDownloader /* extends Logger*/ {
   val ftpPassword = FtpCredentials.serverPassword
 
 
-  def downloadFtpFile(ftpFileUrl: String, fileName: String): Try[String] = {
-    Try {
+  def downloadFtpFile(ftpRemotePath: String, fileName: String): Future[String] = {
+    Future {
 
       val ftpClient = FTPClientGenerator.createFTPClient
       val localDownloadFtpPath = FtpCredentials.localFileSaveLocation
@@ -81,16 +77,16 @@ trait FtpDownloader /* extends Logger*/ {
       new File(localDownloadFtpPath).mkdirs()
 
       connectToFtpServer(ftpClient)
-      val fileDownloadable = ftpFileUrl
+      val fileDownloadable = s"$ftpRemotePath$fileName"
       val localCsvFile = s"$localDownloadFtpPath$fileName"
       val os = new BufferedOutputStream(new FileOutputStream(localCsvFile))
       ftpClient.retrieveFile(fileDownloadable, os)
       os.close()
 
       FTPClientGenerator.disconnect(ftpClient)
-      val succMsg = "downloading ftp resource completed"
-     // logger.info(succMsg)
-      succMsg
+      val msg = "#####################downloading ftp resource completed##################"
+      logger.info(msg)
+      msg
     }
   }
 
@@ -100,19 +96,18 @@ trait FtpDownloader /* extends Logger*/ {
     ftpClient.login(ftpUsername, ftpPassword)
     ftpClient.setFileType(FTP.BINARY_FILE_TYPE)
     val msg = "ftp connection successful" + ftpClient.getReplyString
-   // logger.info(msg)
+    logger.info(msg)
   }
 }
 
 object ImplFtpDownloader extends FtpDownloader
-
 
 object FtpCredentials extends ConfigurationReaderComponent {
   def serverIp: String = getConfigurationProperty("ftpCredentials.ftpServer")
   def serverPort: String = getConfigurationProperty("ftpCredentials.ftpPort")
   def serverUsername: String = getConfigurationProperty("ftpCredentials.ftpUsername")
   def serverPassword: String = getConfigurationProperty("ftpCredentials.ftpPassword")
-  val localFileSaveLocation: String = getConfigurationProperty("localFilePath")
+  val localFileSaveLocation: String = getConfigurationProperty("localDiskLocation")
 }
 
 object FTPClientGenerator {
@@ -125,4 +120,3 @@ object FTPClientGenerator {
     ftpClient.disconnect()
   }
 }
-  * */
