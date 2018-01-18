@@ -3,9 +3,11 @@ package downloadmanager.sftpmanager
 
 import java.io.{BufferedInputStream, BufferedOutputStream, File, FileOutputStream}
 import java.util.Properties
+
 import com.jcraft.jsch.{ChannelSftp, JSch, Session}
 import downloadmanager.utilities.{ConfigurationReaderComponent, Logger}
 import org.apache.commons.net.ftp.FTPClient
+
 import scala.util.Try
 
 trait SFtpDownloader  extends Logger {

@@ -1,26 +1,45 @@
 package downloadmanager.httpmanager
 
-import akka.util.Timeout
-import org.mockito.Matchers.any
-import org.mockito.Mockito.when
-import org.scalatest.concurrent.ScalaFutures
-import org.scalatest.mockito.MockitoSugar
-import org.scalatest.{Matchers, WordSpec}
-import scala.concurrent.duration._
+import akka.actor.{ActorSystem, Props}
+import akka.testkit.TestKit
+import downloadmanager.utilities.{InitiateHttpDownload, StartHttpDownload}
+import org.specs2.mutable.SpecificationLike
 
-class HttpDownloaderClosureSpec extends WordSpec with MockitoSugar with Matchers with ScalaFutures {
+  class HttpDownloaderActorSpec extends TestKit(ActorSystem()) with SpecificationLike {
 
-  val to = Timeout(5.seconds)
+    "Http Download Actor" should {
 
-  "Ftp Downloader closure" must {
-    "download the Ftp resource from remote location" in {
-      val downloadResult = "file download completed"
-      //when(MockHttpDownloader.ftpDownloader.fileDownloader(any[String],any[String])).thenReturn(downloadResult)
+      "return success message as download started" in {
+        val url = "http://uat.reactore.com:8081/artifactory/lib-test/build.sbt"
+        val fileName = "build.sbt"
+        val actorProps = Props(new HttpDownloadActor(url, fileName, Some(testActor)))
+        val actor = system.actorOf(actorProps, "HttpDownloadActor")
+        actor ! StartHttpDownload
+        expectMsg("Download Started")
+        success
+      }
+
+      "return failure message as download failed" in {
+        val url = ""
+        val fileName = ""
+        val actorProps = Props(new HttpDownloadActor(url, fileName, Some(testActor)))
+        val actor = system.actorOf(actorProps, "HttpDownloadActor")
+        actor ! StartHttpDownload
+        expectMsg("Download Started")
+        success
+      }
+
+      "return error failure message when download failed" in {
+
+        val actorProps = Props(new HttpDownloaderComponent(Some(testActor)))
+        val actor = system.actorOf(actorProps, "HttpDownloaderComponent")
+        val url = ""
+        val fileName = ""
+        val expectedMessage = "error downloading resources, check your url"
+        actor ! InitiateHttpDownload(url,fileName)
+        expectMsg(expectedMessage)
+        success
+      }
+
     }
   }
-
-}
-
-object MockHttpDownloader extends HttpDownloaderComponent with MockitoSugar {
-  lazy val ftpDownloader = mock[HttpDownloaderComponent]
-}
