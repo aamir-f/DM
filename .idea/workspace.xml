@@ -1,169 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fcb8b29-c7fb-4c56-8375-9741ad59b3cd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_classic_1_1_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_core_1_1_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_scala_logging_scala_logging_2_11_3_1_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_6_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_sbt_test_interface_1_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_specs2_specs2_common_2_11_4_0_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_specs2_specs2_core_2_11_4_0_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_specs2_specs2_fp_2_11_4_0_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_specs2_specs2_matcher_2_11_4_0_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/downloadmanager/MainDownloader.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Facades.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/application.conf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/Downloader$$anonfun$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/Downloader$$anonfun$resolveSources$1$$anonfun$2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/Downloader$$anonfun$resolveSources$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/Downloader$class.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/Downloader.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ImplDownloader$.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ImplDownloader.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/FTPClientGenerator$.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/FTPClientGenerator.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/FtpCredentials$.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/FtpCredentials.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/FtpDownloader$$anonfun$downloadFtpFile$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/FtpDownloader$class.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/FtpDownloader.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/ImplFtpDownloader$.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/ImplFtpDownloader.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/httpmanager/HttpDownloadActor$$anonfun$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/httpmanager/HttpDownloadActor$$anonfun$receive$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/httpmanager/HttpDownloadActor$$anonfun$waitingForResponse$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/httpmanager/HttpDownloadActor.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/httpmanager/HttpDownloader$.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/httpmanager/HttpDownloader.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/httpmanager/HttpDownloaderComponent$$anonfun$downloadFile$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/httpmanager/HttpDownloaderComponent$$anonfun$receive$1$$anonfun$applyOrElse$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/httpmanager/HttpDownloaderComponent$$anonfun$receive$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/httpmanager/HttpDownloaderComponent.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ll$.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ll$delayedInit$body.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ll.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/sftpmanager/ImplSFtpDownloader$.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/sftpmanager/ImplSFtpDownloader.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/sftpmanager/SFTPClientGenerator$.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/sftpmanager/SFTPClientGenerator.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/sftpmanager/SFtpCredentials$.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/sftpmanager/SFtpCredentials.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/sftpmanager/SFtpDownloader$$anonfun$downloadSFtpFile$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/sftpmanager/SFtpDownloader$class.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/sftpmanager/SFtpDownloader.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/ActorSystemContainer$.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/ActorSystemContainer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/ConfigurationReader$.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/ConfigurationReader.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/ConfigurationReaderComponent$class.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/ConfigurationReaderComponent.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/DownloadManagerFacade$class.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/DownloadManagerFacade.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/DownloadManagerFacadeComponent.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/HttpResponseTimeout$.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/HttpResponseTimeout.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/InitiateHttpDownload$.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/InitiateHttpDownload.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/Logger.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/StartHttpDownload$.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/StartHttpDownload.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/SuccessResponse$.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/SuccessResponse.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/Utils$.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/Utils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/UtilsComponent$class.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/UtilsComponent.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/logback.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__log4j_log4j_1_2_13_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_2_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_7_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_log4j12_1_2_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/dm-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/dm-build.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/dm.iml" afterPath="$PROJECT_DIR$/.idea/modules/dm.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$92d10069cf970e961419$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$92d10069cf970e961419.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$92d10069cf970e961419.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/dm-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/dm-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/dm-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/dm-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-test.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-dm-build-test.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.conf" afterPath="$PROJECT_DIR$/src/main/resources/application.conf" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/downloadmanager/ftpmanager/FtpDownloader.scala" afterPath="$PROJECT_DIR$/src/main/scala/downloadmanager/ftpmanager/FtpDownloader.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/downloadmanager/httpmanager/HttpDownloadActor.scala" afterPath="$PROJECT_DIR$/src/main/scala/downloadmanager/httpmanager/HttpDownloadActor.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/downloadmanager/httpmanager/HttpDownloader.scala" afterPath="$PROJECT_DIR$/src/main/scala/downloadmanager/httpmanager/HttpDownloader.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/downloadmanager/retry.scala" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/downloadmanager/sftpmanager/SFtpDownloader.scala" afterPath="$PROJECT_DIR$/src/main/scala/downloadmanager/sftpmanager/SFtpDownloader.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Commands.scala" afterPath="$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Commands.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Constants.scala" afterPath="$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Constants.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Logger.scala" afterPath="$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Logger.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Utils.scala" afterPath="$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Utils.scala" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/downloadmanager/httpmanager/HttpDownloaderTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/downloadmanager/httpmanager/HttpDownloaderTest.scala" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/dm$sources/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/dm$sources/0.1/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/dm$sources/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/dm$sources/0.1/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/dm_2.11/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/dm_2.11/0.1/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/dm_2.11/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/dm_2.11/0.1/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-test.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm_2.11-test.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/downloadmanager/httpmanager/HttpDownloaderClosureSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/downloadmanager/httpmanager/HttpDownloaderClosureSpec$$anonfun$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/downloadmanager/httpmanager/HttpDownloaderClosureSpec.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/downloadmanager/httpmanager/MockHttpDownloader$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/downloadmanager/httpmanager/MockHttpDownloader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
-    </list>
+    <list default="true" id="8fcb8b29-c7fb-4c56-8375-9741ad59b3cd" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -174,28 +12,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="HttpDownloaderTest.scala" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/httpmanager/HttpDownloaderTest.scala">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="446">
-                    <caret line="54" column="48" lean-forward="true" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
-                    <folding>
-                      <element signature="e#37#75#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -221,7 +37,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HttpDownloader.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HttpDownloader.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/httpmanager/HttpDownloader.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="633">
@@ -245,11 +61,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="HttpDownloaderTest.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/httpmanager/HttpDownloaderTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#37#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MainDownloader.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/MainDownloader.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
               <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UtilitiesTest.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/utitities/UtilitiesTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -299,7 +137,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="64" />
+    <option name="x" value="1984" />
     <option name="y" value="-4" />
     <option name="width" value="1857" />
     <option name="height" value="1085" />
@@ -434,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Specs2.downloadmanager.httpmanager.HttpDownloaderActorSpec::return failure message as download failed">
+  <component name="RunManager" selected="Specs2.HttpDownloaderActorSpec (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -604,11 +442,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Specs2.downloadmanager.httpmanager.HttpDownloaderActorSpec::return failure message as download failed" />
-        <item index="1" class="java.lang.String" itemvalue="Specs2.downloadmanager.httpmanager.HttpDownloaderActorSpec::return error failure message when download failed" />
-        <item index="2" class="java.lang.String" itemvalue="Specs2.downloadmanager.httpmanager.HttpDownloaderActorSpec::return success message as download started" />
-        <item index="3" class="java.lang.String" itemvalue="Specs2.downloadmanager.httpmanager.HttpDownloaderActorSpec::return error that download failed" />
-        <item index="4" class="java.lang.String" itemvalue="Specs2.HttpDownloaderActorSpec (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Specs2.HttpDownloaderActorSpec (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Specs2.downloadmanager.httpmanager.HttpDownloaderActorSpec::return success message as download started" />
+        <item index="2" class="java.lang.String" itemvalue="Specs2.downloadmanager.httpmanager.HttpDownloaderActorSpec::return failure message as download failed" />
+        <item index="3" class="java.lang.String" itemvalue="Specs2.downloadmanager.httpmanager.HttpDownloaderActorSpec::return error failure message when download failed" />
+        <item index="4" class="java.lang.String" itemvalue="Specs2.downloadmanager.httpmanager.HttpDownloaderActorSpec::return error that download failed" />
       </list>
     </recent_temporary>
   </component>
@@ -664,7 +502,10 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HttpDownloaderActorSpec_(1) - 2018.01.18 at 05h 53m 11s.xml">
+    <history-entry file="HttpDownloaderActorSpec_(1) - 2018.01.18 at 06h 16m 01s.xml">
+      <configuration name="HttpDownloaderActorSpec (1)" configurationId="Specs2RunConfiguration" />
+    </history-entry>
+    <history-entry file="HttpDownloaderActorSpec_(1) - 2018.01.18 at 06h 16m 59s.xml">
       <configuration name="HttpDownloaderActorSpec (1)" configurationId="Specs2RunConfiguration" />
     </history-entry>
     <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_error_failure_message_when_download_failed - 2018.01.18 at 06h 07m 42s.xml">
@@ -676,17 +517,11 @@
     <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_error_failure_message_when_download_failed - 2018.01.18 at 06h 11m 27s.xml">
       <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return error failure message when download failed" configurationId="Specs2RunConfiguration" />
     </history-entry>
-    <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_error_that_download_failed - 2018.01.18 at 05h 56m 15s.xml">
-      <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return error that download failed" configurationId="Specs2RunConfiguration" />
-    </history-entry>
     <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_error_that_download_failed - 2018.01.18 at 05h 58m 40s.xml">
       <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return error that download failed" configurationId="Specs2RunConfiguration" />
     </history-entry>
-    <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_failure_message_as_download_failed - 2018.01.18 at 05h 57m 53s.xml">
+    <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_failure_message_as_download_failed - 2018.01.18 at 06h 11m 37s.xml">
       <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return failure message as download failed" configurationId="Specs2RunConfiguration" />
-    </history-entry>
-    <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_success_message_as_download_started - 2018.01.18 at 05h 54m 20s.xml">
-      <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return success message as download started" configurationId="Specs2RunConfiguration" />
     </history-entry>
     <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_success_message_as_download_started - 2018.01.18 at 05h 58m 32s.xml">
       <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return success message as download started" configurationId="Specs2RunConfiguration" />
@@ -694,9 +529,12 @@
     <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_success_message_as_download_started - 2018.01.18 at 06h 03m 45s.xml">
       <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return success message as download started" configurationId="Specs2RunConfiguration" />
     </history-entry>
+    <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_success_message_as_download_started - 2018.01.18 at 06h 16m 53s.xml">
+      <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return success message as download started" configurationId="Specs2RunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
+    <frame x="1984" y="-4" width="1857" height="1085" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1024,14 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/utitities/UtilitiesTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -1076,10 +906,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/utitities/UtilitiesTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/httpmanager/HttpDownloaderTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="54" column="48" lean-forward="true" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+        <state relative-caret-position="110">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="e#37#75#0" expanded="true" />
           </folding>
