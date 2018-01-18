@@ -31,8 +31,9 @@ trait UtilsComponent {
     if(ftpBase.nonEmpty)
      s"ftp/$ftpBasePath$ftpFileName"
     else
-      s"/$ftpFileName"
+      s"ftp/$ftpFileName"
   }
+  def buildsFTPUrl = ???
 }
 
 object Utils extends UtilsComponent with DownloadManagerFacade
