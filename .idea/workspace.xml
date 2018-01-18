@@ -2,49 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fcb8b29-c7fb-4c56-8375-9741ad59b3cd" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/downloadmanager/ftpmanager/FtpDownloaderTest.scala" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.conf" afterPath="$PROJECT_DIR$/src/main/resources/application.conf" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/downloadmanager/MainDownloader.scala" afterPath="$PROJECT_DIR$/src/main/scala/downloadmanager/MainDownloader.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/downloadmanager/ftpmanager/FtpDownloadActor.scala" afterPath="$PROJECT_DIR$/src/main/scala/downloadmanager/ftpmanager/FtpDownloadActor.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/downloadmanager/ftpmanager/FtpDownloader.scala" afterPath="$PROJECT_DIR$/src/main/scala/downloadmanager/ftpmanager/FtpDownloader.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/downloadmanager/httpmanager/HttpDownloadActor.scala" afterPath="$PROJECT_DIR$/src/main/scala/downloadmanager/httpmanager/HttpDownloadActor.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/downloadmanager/httpmanager/HttpDownloader.scala" afterPath="$PROJECT_DIR$/src/main/scala/downloadmanager/httpmanager/HttpDownloader.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Commands.scala" afterPath="$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Commands.scala" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Utils.scala" afterPath="$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Utils.scala" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/downloadmanager/httpmanager/HttpDownloaderTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/downloadmanager/httpmanager/HttpDownloaderTest.scala" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/downloadmanager/utitities/UtilitiesTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/downloadmanager/utitities/UtilitiesTest.scala" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/application.conf" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/application.conf" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/Downloader$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/Downloader$$anonfun$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/Downloader$$anonfun$resolveSources$1$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/Downloader$$anonfun$resolveSources$1$$anonfun$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/Downloader$$anonfun$resolveSources$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/Downloader$$anonfun$resolveSources$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/Downloader$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/Downloader$class.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ImplDownloader$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ImplDownloader$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/FTPClientGenerator$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/FTPClientGenerator$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/FtpCredentials$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/FtpCredentials$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/FtpDownloader$$anonfun$downloadFtpFile$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/FtpDownloader$$anonfun$downloadFtpFile$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/FtpDownloader$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/FtpDownloader$class.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/FtpDownloader.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/FtpDownloader.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/ImplFtpDownloader$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/ImplFtpDownloader$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/ImplFtpDownloader.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ftpmanager/ImplFtpDownloader.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/httpmanager/HttpDownloadActor$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/httpmanager/HttpDownloadActor$$anonfun$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/httpmanager/HttpDownloadActor$$anonfun$receive$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/httpmanager/HttpDownloadActor$$anonfun$receive$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/httpmanager/HttpDownloadActor$$anonfun$waitingForResponse$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/httpmanager/HttpDownloadActor$$anonfun$waitingForResponse$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/httpmanager/HttpDownloadActor.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/httpmanager/HttpDownloadActor.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/httpmanager/HttpDownloaderComponent$$anonfun$receive$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/httpmanager/HttpDownloaderComponent$$anonfun$receive$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ll$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ll$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ll$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ll$delayedInit$body.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ll.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/ll.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/ActorSystemContainer$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/ActorSystemContainer$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/InitiateHttpDownload$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/InitiateHttpDownload.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/StartHttpDownload$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/StartHttpDownload.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/SuccessResponse$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/SuccessResponse$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/SuccessResponse.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/SuccessResponse.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/Utils$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/Utils$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/Utils.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/Utils.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/UtilsComponent$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/UtilsComponent$class.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/UtilsComponent.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/downloadmanager/utilities/UtilsComponent.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,18 +51,8 @@
       <file leaf-file-name="Utils.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Utils.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpDownloadActor.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/httpmanager/HttpDownloadActor.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="411">
+              <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -110,10 +61,22 @@
       <file leaf-file-name="HttpDownloaderTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/httpmanager/HttpDownloaderTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="7" />
               <folding>
                 <element signature="e#37#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FtpDownloaderTest.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/ftpmanager/FtpDownloaderTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+              <folding>
+                <element signature="e#36#74#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainDownloader.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainDownloader.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/MainDownloader.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="397">
+              <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
               <folding>
                 <element signature="e#25#48#0" expanded="true" />
               </folding>
@@ -185,11 +148,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.conf" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.conf" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state relative-caret-position="396">
+              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -239,11 +202,12 @@
         <option value="$PROJECT_DIR$/src/main/scala/downloadmanager/ftpmanager/FtpDownloadActor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/downloadmanager/httpmanager/HttpDownloadActor.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/downloadmanager/httpmanager/HttpDownloaderTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/src/main/scala/downloadmanager/ftpmanager/FtpDownloader.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/downloadmanager/utitities/UtilitiesTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Utils.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/downloadmanager/MainDownloader.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/downloadmanager/ftpmanager/FtpDownloaderTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Utils.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
       </list>
     </option>
   </component>
@@ -367,24 +331,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="downloadmanager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="downloadmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="httpmanager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="downloadmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="utitities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -519,22 +465,6 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="UtilitiesTest.Utilities Test should retrieve max number of retries used" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="dm" />
-      <setting name="path" value="downloadmanager.utitities.UtilitiesTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="downloadmanager.utitities.UtilitiesTest" />
-      <setting name="testName" value="Utilities Test should retrieve max number of retries used" />
-    </configuration>
     <configuration name="UtilitiesTest.Utilities Test should split the ftp url and retrieve file name from  it" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="dm" />
@@ -550,6 +480,22 @@
       <setting name="testKind" value="Test name" />
       <setting name="path" value="downloadmanager.utitities.UtilitiesTest" />
       <setting name="testName" value="Utilities Test should split the ftp url and retrieve file name from  it" />
+    </configuration>
+    <configuration name="downloadmanager.ftpmanager.FtpDownloaderActorSpec::return success message as download started" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="dm" />
+      <setting name="path" value="downloadmanager.ftpmanager.FtpDownloaderActorSpec" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="downloadmanager.ftpmanager.FtpDownloaderActorSpec" />
+      <setting name="testName" value="return success message as download started" />
     </configuration>
     <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return success message as download started" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -750,19 +696,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.UtilitiesTest.Utilities Test should retrieve max number of retries used" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ll" />
-      <item index="2" class="java.lang.String" itemvalue="Specs2.downloadmanager.httpmanager.HttpDownloaderActorSpec::return success message as download started" />
-      <item index="3" class="java.lang.String" itemvalue="Application.mm" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.UtilitiesTest.Utilities Test should split the ftp url and retrieve file name from  it" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ll" />
+      <item index="1" class="java.lang.String" itemvalue="Specs2.downloadmanager.httpmanager.HttpDownloaderActorSpec::return success message as download started" />
+      <item index="2" class="java.lang.String" itemvalue="Application.mm" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.UtilitiesTest.Utilities Test should split the ftp url and retrieve file name from  it" />
+      <item index="4" class="java.lang.String" itemvalue="Specs2.downloadmanager.ftpmanager.FtpDownloaderActorSpec::return success message as download started" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.ll" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.UtilitiesTest.Utilities Test should split the ftp url and retrieve file name from  it" />
-        <item index="2" class="java.lang.String" itemvalue="Application.mm" />
-        <item index="3" class="java.lang.String" itemvalue="Specs2.downloadmanager.httpmanager.HttpDownloaderActorSpec::return success message as download started" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.UtilitiesTest.Utilities Test should retrieve max number of retries used" />
+        <item index="1" class="java.lang.String" itemvalue="Specs2.downloadmanager.ftpmanager.FtpDownloaderActorSpec::return success message as download started" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.UtilitiesTest.Utilities Test should split the ftp url and retrieve file name from  it" />
+        <item index="3" class="java.lang.String" itemvalue="Application.mm" />
+        <item index="4" class="java.lang.String" itemvalue="Specs2.downloadmanager.httpmanager.HttpDownloaderActorSpec::return success message as download started" />
       </list>
     </recent_temporary>
   </component>
@@ -816,9 +762,6 @@
     <history-entry file="HttpDownloaderActorSpec - 2018.01.18 at 19h 43m 48s.xml">
       <configuration name="HttpDownloaderActorSpec" configurationId="Specs2RunConfiguration" />
     </history-entry>
-    <history-entry file="HttpDownloaderClosureSpec_Ftp_Downloader_closure_must_download_the_Ftp_resource_from_remote_location - 2018.01.16 at 10h 26m 18s.xml">
-      <configuration name="HttpDownloaderClosureSpec.Ftp Downloader closure must download the Ftp resource from remote location" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="UtilitiesTest_Utilities_Test_should_retrieve_max_number_of_retries_used - 2018.01.18 at 19h 50m 15s.xml">
       <configuration name="UtilitiesTest.Utilities Test should retrieve max number of retries used" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -830,6 +773,9 @@
     </history-entry>
     <history-entry file="UtilitiesTest_Utilities_Test_should_split_the_url_and_retrieve_file_name_from__it - 2018.01.18 at 19h 48m 42s.xml">
       <configuration name="UtilitiesTest.Utilities Test should split the url and retrieve file name from  it" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="downloadmanager_ftpmanager_FtpDownloaderActorSpec__return_success_message_as_download_started - 2018.01.18 at 21h 26m 22s.xml">
+      <configuration name="downloadmanager.ftpmanager.FtpDownloaderActorSpec::return success message as download started" configurationId="Specs2RunConfiguration" />
     </history-entry>
     <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_error_failure_message_when_download_failed - 2018.01.18 at 19h 44m 33s.xml">
       <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return error failure message when download failed" configurationId="Specs2RunConfiguration" />
@@ -869,7 +815,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7013997" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.85381025" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -934,13 +880,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/ConfigurationReader.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/httpmanager/HttpDownloader.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1158,16 +1097,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/httpmanager/HttpDownloaderTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="e#37#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/commons-net/commons-net/srcs/commons-net-3.3-sources.jar!/org/apache/commons/net/ftp/FTPClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -1212,29 +1141,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/httpmanager/HttpDownloaderTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="e#37#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/ftpmanager/FtpDownloaderTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <element signature="e#36#74#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Utils.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        <state relative-caret-position="411">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/MainDownloader.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state relative-caret-position="397">
+          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
           <folding>
             <element signature="e#25#48#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

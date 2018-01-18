@@ -27,7 +27,11 @@ trait UtilsComponent {
     s"http://$ip$serverPath$filename"
   }
   def buildFtpUrl: String = {
+    val ftpBase = ftpBasePath
+    if(ftpBase.nonEmpty)
      s"ftp/$ftpBasePath$ftpFileName"
+    else
+      s"/$ftpFileName"
   }
 }
 
