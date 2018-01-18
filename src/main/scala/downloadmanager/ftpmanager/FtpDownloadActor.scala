@@ -1,4 +1,4 @@
-package downloadmanager.httpmanager
+package downloadmanager.ftpmanager
 
 import java.io.File
 
@@ -7,12 +7,12 @@ import akka.actor.{Actor, ActorRef, OneForOneStrategy, PoisonPill, Props, Receiv
 import downloadmanager.utilities.HttpResponseTimeout._
 import downloadmanager.utilities._
 
-import scala.concurrent.duration._
 import scala.concurrent.ExecutionContext.Implicits.global
-import scala.concurrent.duration.Duration
+import scala.concurrent.duration.{Duration, _}
 
-class HttpDownloadActor(url: String, fileName: String,actorRef:Option[ActorRef]) extends Actor with Logger {
-  var httpDownloaderActorRef = Actor.noSender
+class FtpDownloadActor(url: String, fileName: String, actorRef:Option[ActorRef])
+  extends Actor with Logger {
+  var ftpDownloaderActorRef = Actor.noSender
   var RETRY_ATTEMPT = IntValues.ZERO
 
   override def receive: PartialFunction[Any, Unit] = {
@@ -25,12 +25,12 @@ class HttpDownloadActor(url: String, fileName: String,actorRef:Option[ActorRef])
           */
         context.setReceiveTimeout(timeout)
         val downloadActor = context.actorOf(Props( new HttpDownloaderComponent(None)), "HttpDownloader")
-        httpDownloaderActorRef = downloadActor
+        ftpDownloaderActorRef = downloadActor
         downloadActor ! InitiateHttpDownload(url, fileName)
         context.become(waitingForResponse)
         actorRef.foreach(_ ! "Download Started")
       } else {
-        val msg = s"#########HttpClient:Unable to download resource after max tries,please check your url#############"
+        val msg = s"#########FtpClient:Unable to download resource after max tries,please check your url#############"
         logger.error(msg)
         self ! PoisonPill
       }
@@ -41,20 +41,20 @@ class HttpDownloadActor(url: String, fileName: String,actorRef:Option[ActorRef])
     case ReceiveTimeout => {
       val msg = s"#########Dowload taking too much time, aborting and retrying download#############"
       cancelReceiveTimeOut
-      context.stop(httpDownloaderActorRef)
+      context.stop(ftpDownloaderActorRef)
       removePartialDownloadLocalFile
       context.become(receive)
       context.system.scheduler.scheduleOnce(4.second,self,StartHttpDownload)
       logger.error(msg)
     }
     case Terminated => {
-      val errMsg = "######Unexpected error:HttpClient is down#######"
+      val errMsg = "######Unexpected error:FtpClient is down#######"
       logger.error(errMsg)
     }
     case cmd: SuccessResponse => {
       logger.info(cmd.msg)
       cancelReceiveTimeOut
-      context.stop(httpDownloaderActorRef)
+      context.stop(ftpDownloaderActorRef)
     }
   }
 

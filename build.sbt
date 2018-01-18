@@ -20,6 +20,8 @@ libraryDependencies ++= Seq(
   "joda-time" % "joda-time" % "2.9.9",
   "com.jcraft" % "jsch" % "0.1.54",
   "com.typesafe.scala-logging" %% "scala-logging" % "3.1.0",
-   "ch.qos.logback" % "logback-classic" % "1.1.2"
+   "ch.qos.logback" % "logback-classic" % "1.1.2",
+  "org.specs2" %% "specs2-core" % "4.0.1" % Test
+
 
 )

@@ -133,7 +133,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->master]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime(*)]
@@ -1529,10 +1529,8 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->master]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime(*)]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.17 [compile->default]
@@ -1957,10 +1955,8 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [runtime->master]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.17 [runtime->default]
@@ -2383,14 +2379,21 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [test->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [test->master]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime(*)]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master(compile)]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile(*)]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->default]
+[debug] sbt-chain: Checking cache for: dependency: org.specs2#specs2-core_2.11;4.0.1 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.specs2#specs2-core_2.11;4.0.1
+[debug] 	found org.specs2#specs2-core_2.11;4.0.1 in sbt-chain
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->default(compile)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.17 [test->default]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.17 [test->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.17 [test->compile]
@@ -2411,6 +2414,17 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.specs2#specs2-common_2.11;4.0.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.specs2#specs2-common_2.11;4.0.1
+[debug] 	found org.specs2#specs2-common_2.11;4.0.1 in sbt-chain
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test->runtime(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test->master(compile)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test->compile(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test->master]
 [debug] == resolving dependencies default#dm$sources;0.1->org.json4s#json4s-scalap_2.11;3.6.0-M2 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.json4s#json4s-scalap_2.11;3.6.0-M2 [test->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.json4s#json4s-scalap_2.11;3.6.0-M2 [test->compile]
@@ -2559,6 +2573,17 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.mockito#mockito-all;1.10.19 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.mockito#mockito-all;1.10.19 [test->master]
 [debug] == resolving dependencies default#dm$sources;0.1->org.mockito#mockito-all;1.10.19 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.specs2#specs2-matcher_2.11;4.0.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.specs2#specs2-matcher_2.11;4.0.1
+[debug] 	found org.specs2#specs2-matcher_2.11;4.0.1 in sbt-chain
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test->runtime(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test->master(compile)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test->compile(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test->master]
 [debug] == resolving dependencies default#dm$sources;0.1->org.json4s#json4s-ast_2.11;3.6.0-M2 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.json4s#json4s-ast_2.11;3.6.0-M2 [test->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.json4s#json4s-ast_2.11;3.6.0-M2 [test->compile]
@@ -2583,6 +2608,17 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.4.17 [test->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.4.17 [test->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.4.17 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.specs2#specs2-fp_2.11;4.0.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.specs2#specs2-fp_2.11;4.0.1
+[debug] 	found org.specs2#specs2-fp_2.11;4.0.1 in sbt-chain
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test->runtime(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test->master(compile)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test->compile(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.jcraft#jsch;0.1.54 [test->default]
 [debug] == resolving dependencies default#dm$sources;0.1->com.jcraft#jsch;0.1.54 [test->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->com.jcraft#jsch;0.1.54 [test->compile]
@@ -2623,6 +2659,17 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [test->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 in sbt-chain
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test->runtime(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test->master(compile)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test->compile(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-stream_2.11;2.4.17 [test->default]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-stream_2.11;2.4.17 [test->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-stream_2.11;2.4.17 [test->compile]
@@ -2659,6 +2706,17 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.8.4 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.8.4 [test->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.8.4 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#test-interface;1.0 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
+[debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test->runtime(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test->master(compile)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test->compile(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test->default]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test->compile]
@@ -4971,13 +5029,19 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->master]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime(*)]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [compile->runtime(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [compile->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [compile->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [compile->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.17 [compile->default]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.17 [compile->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.17 [compile->compile]
@@ -5399,13 +5463,19 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [runtime->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [runtime->master]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [runtime->runtime(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->master(compile)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [runtime->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [runtime->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [runtime->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [runtime->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.17 [runtime->default]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.17 [runtime->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.17 [runtime->compile]
@@ -5826,14 +5896,18 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [test->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [test->master]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime(*)]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master(compile)]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->compile(*)]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->default]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->default(compile)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.17 [test->default]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.17 [test->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.17 [test->compile]
@@ -5854,6 +5928,14 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test->runtime(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test->master(compile)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test->compile(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test->master]
 [debug] == resolving dependencies default#dm$sources;0.1->org.json4s#json4s-scalap_2.11;3.6.0-M2 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.json4s#json4s-scalap_2.11;3.6.0-M2 [test->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.json4s#json4s-scalap_2.11;3.6.0-M2 [test->compile]
@@ -6002,6 +6084,14 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.mockito#mockito-all;1.10.19 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.mockito#mockito-all;1.10.19 [test->master]
 [debug] == resolving dependencies default#dm$sources;0.1->org.mockito#mockito-all;1.10.19 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test->runtime(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test->master(compile)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test->compile(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test->master]
 [debug] == resolving dependencies default#dm$sources;0.1->org.json4s#json4s-ast_2.11;3.6.0-M2 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.json4s#json4s-ast_2.11;3.6.0-M2 [test->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.json4s#json4s-ast_2.11;3.6.0-M2 [test->compile]
@@ -6026,6 +6116,14 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.4.17 [test->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.4.17 [test->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.4.17 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test->runtime(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test->master(compile)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test->compile(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.jcraft#jsch;0.1.54 [test->default]
 [debug] == resolving dependencies default#dm$sources;0.1->com.jcraft#jsch;0.1.54 [test->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->com.jcraft#jsch;0.1.54 [test->compile]
@@ -6066,6 +6164,14 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [test->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test->runtime(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test->master(compile)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test->compile(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-stream_2.11;2.4.17 [test->default]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-stream_2.11;2.4.17 [test->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-stream_2.11;2.4.17 [test->compile]
@@ -6102,6 +6208,14 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.8.4 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.8.4 [test->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.8.4 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test->runtime(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test->master(compile)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test->compile(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test->default]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test->compile]
@@ -6256,14 +6370,18 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [test-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [test-internal->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [test-internal->master]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->runtime(*)]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->master(compile)]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->runtime]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->compile(*)]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test-internal->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test-internal->default]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test-internal->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test-internal->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test-internal->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test-internal->default(compile)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test-internal->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test-internal->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-core_2.11;4.0.1 [test-internal->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.17 [test-internal->default]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.17 [test-internal->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.17 [test-internal->compile]
@@ -6284,6 +6402,14 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test-internal->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-xml_2.11;1.0.6 [test-internal->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test-internal->master(compile)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test-internal->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test-internal->compile(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-common_2.11;4.0.1 [test-internal->master]
 [debug] == resolving dependencies default#dm$sources;0.1->org.json4s#json4s-scalap_2.11;3.6.0-M2 [test-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.json4s#json4s-scalap_2.11;3.6.0-M2 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.json4s#json4s-scalap_2.11;3.6.0-M2 [test-internal->compile]
@@ -6432,6 +6558,14 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.mockito#mockito-all;1.10.19 [test-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.mockito#mockito-all;1.10.19 [test-internal->master]
 [debug] == resolving dependencies default#dm$sources;0.1->org.mockito#mockito-all;1.10.19 [test-internal->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test-internal->master(compile)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test-internal->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test-internal->compile(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-matcher_2.11;4.0.1 [test-internal->master]
 [debug] == resolving dependencies default#dm$sources;0.1->org.json4s#json4s-ast_2.11;3.6.0-M2 [test-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.json4s#json4s-ast_2.11;3.6.0-M2 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.json4s#json4s-ast_2.11;3.6.0-M2 [test-internal->compile]
@@ -6456,6 +6590,14 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.4.17 [test-internal->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.4.17 [test-internal->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-actor_2.11;2.4.17 [test-internal->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test-internal->master(compile)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test-internal->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test-internal->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test-internal->compile(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.specs2#specs2-fp_2.11;4.0.1 [test-internal->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.jcraft#jsch;0.1.54 [test-internal->default]
 [debug] == resolving dependencies default#dm$sources;0.1->com.jcraft#jsch;0.1.54 [test-internal->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->com.jcraft#jsch;0.1.54 [test-internal->compile]
@@ -6496,6 +6638,14 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [test-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [test-internal->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [test-internal->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test-internal->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test-internal->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test-internal->master(compile)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test-internal->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test-internal->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test-internal->compile(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6 [test-internal->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-stream_2.11;2.4.17 [test-internal->default]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-stream_2.11;2.4.17 [test-internal->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.akka#akka-stream_2.11;2.4.17 [test-internal->compile]
@@ -6532,6 +6682,14 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.8.4 [test-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.8.4 [test-internal->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.fasterxml.jackson.core#jackson-core;2.8.4 [test-internal->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test-internal->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test-internal->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test-internal->master(compile)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test-internal->runtime]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test-internal->compile]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test-internal->compile(*)]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-sbt#test-interface;1.0 [test-internal->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test-internal->default]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test-internal->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe.scala-logging#scala-logging_2.11;3.1.0 [test-internal->compile]
@@ -6657,52 +6815,88 @@
 [debug] == resolving dependencies default#dm$sources;0.1->jline#jline;2.12.1 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.11;2.4.17!akka-protobuf_2.11.jar(src)
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.2!logback-core.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.11;2.4.17!akka-stream_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.11;10.0.1!akka-http-core_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.4!jackson-core.jar(src)
-[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.11;3.0.1!scalactic_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.11;3.1.0!scala-logging_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.7!slf4j-api.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-cluster-tools_2.11;2.4.17!akka-cluster-tools_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.8.4!jackson-databind.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.4.17!akka-testkit_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.11;3.6.0-M2!json4s-core_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.6!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.json4s#json4s-scalap_2.11;3.6.0-M2!json4s-scalap_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-cluster_2.11;2.4.17!akka-cluster_2.11.jar(src)
 [debug] 	[NOT REQUIRED] io.aeron#aeron-client;1.1.0!aeron-client.jar(src)
 [debug] 	[NOT REQUIRED] org.mockito#mockito-all;1.10.19!mockito-all.jar(src)
 [debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(src)
-[debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.11;3.6.0-M2!json4s-ast_2.11.jar(src)
 [debug] 	[NOT REQUIRED] io.aeron#aeron-driver;1.1.0!aeron-driver.jar(src)
+[debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.11;3.6.0-M2!json4s-ast_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.11;10.0.1!akka-parsing_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;3.0.1!scalatest_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.4.17!akka-actor_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.11;2.4.17!akka-remote_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.54!jsch.jar(src)
-[debug] 	[NOT REQUIRED] org.agrona#agrona;0.9.2!agrona.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-jackson_2.11;3.5.3!json4s-jackson_2.11.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-persistence_2.11;2.4.17!akka-persistence_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.7!slf4j-api.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.4.17!akka-testkit_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-cluster-tools_2.11;2.4.17!akka-cluster-tools_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.6!scala-xml_2.11.jar(src)
-[debug] 	[NOT REQUIRED] io.netty#netty;3.10.6.Final!netty.jar(src)
-[debug] 	[NOT REQUIRED] org.json4s#json4s-scalap_2.11;3.6.0-M2!json4s-scalap_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.8.4!jackson-databind.jar(src)
-[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-native_2.11;3.6.0-M2!json4s-native_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.agrona#agrona;0.9.2!agrona.jar(src)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.1.2!logback-classic.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.11;0.2.1!ssl-config-core_2.11.jar(src)
-[debug] 	[NOT REQUIRED] commons-net#commons-net;3.3!commons-net.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] io.netty#netty;3.10.6.Final!netty.jar(src)
+[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.8.0!jackson-annotations.jar(src)
-[debug] :: resolution report :: resolve 1324ms :: artifacts dl 38ms
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.11;3.0.1!scalactic_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-persistence_2.11;2.4.17!akka-persistence_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.11;2.4.17!akka-protobuf_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.11;2.4.17!akka-stream_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.11;10.0.1!akka-http-core_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.4!jackson-core.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.11;3.1.0!scala-logging_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.2!logback-core.jar(src)
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;3.0.1!scalatest_2.11.jar(src)
+[debug] 		tried /home/aamir/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.6/srcs/scala-parser-combinators_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.6/scala-parser-combinators_2.11-1.0.6-sources.jar
+[debug] 	[NOT REQUIRED] commons-net#commons-net;3.3!commons-net.jar(src)
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.6/scala-parser-combinators_2.11-1.0.6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.6/scala-parser-combinators_2.11-1.0.6-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.6/scala-parser-combinators_2.11-1.0.6-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.6/scala-parser-combinators_2.11-1.0.6-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6!scala-parser-combinators_2.11.jar(src) (2051ms)
+[debug] 		tried /home/aamir/.ivy2/local/org.specs2/specs2-core_2.11/4.0.1/srcs/specs2-core_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/4.0.1/specs2-core_2.11-4.0.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/4.0.1/specs2-core_2.11-4.0.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/4.0.1/specs2-core_2.11-4.0.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/4.0.1/specs2-core_2.11-4.0.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/4.0.1/specs2-core_2.11-4.0.1-sources.jar
+[info] 	[SUCCESSFUL ] org.specs2#specs2-core_2.11;4.0.1!specs2-core_2.11.jar(src) (2994ms)
+[debug] 		tried /home/aamir/.ivy2/local/org.specs2/specs2-common_2.11/4.0.1/srcs/specs2-common_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/4.0.1/specs2-common_2.11-4.0.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/4.0.1/specs2-common_2.11-4.0.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/4.0.1/specs2-common_2.11-4.0.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/4.0.1/specs2-common_2.11-4.0.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/4.0.1/specs2-common_2.11-4.0.1-sources.jar
+[info] 	[SUCCESSFUL ] org.specs2#specs2-common_2.11;4.0.1!specs2-common_2.11.jar(src) (3282ms)
+[debug] 		tried /home/aamir/.ivy2/local/org.specs2/specs2-matcher_2.11/4.0.1/srcs/specs2-matcher_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/4.0.1/specs2-matcher_2.11-4.0.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/4.0.1/specs2-matcher_2.11-4.0.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/4.0.1/specs2-matcher_2.11-4.0.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/4.0.1/specs2-matcher_2.11-4.0.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/4.0.1/specs2-matcher_2.11-4.0.1-sources.jar
+[info] 	[SUCCESSFUL ] org.specs2#specs2-matcher_2.11;4.0.1!specs2-matcher_2.11.jar(src) (2857ms)
+[debug] 		tried /home/aamir/.ivy2/local/org.specs2/specs2-fp_2.11/4.0.1/srcs/specs2-fp_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.11/4.0.1/specs2-fp_2.11-4.0.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.11/4.0.1/specs2-fp_2.11-4.0.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.11/4.0.1/specs2-fp_2.11-4.0.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.11/4.0.1/specs2-fp_2.11-4.0.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.11/4.0.1/specs2-fp_2.11-4.0.1-sources.jar
+[info] 	[SUCCESSFUL ] org.specs2#specs2-fp_2.11;4.0.1!specs2-fp_2.11.jar(src) (2560ms)
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
+[debug] :: resolution report :: resolve 1058ms :: artifacts dl 13813ms
 [debug] 	report for default#dm$sources;0.1 compile produced in /home/aamir/Sources/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-compile.xml
 [debug] 	report for default#dm$sources;0.1 runtime produced in /home/aamir/Sources/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-runtime.xml
 [debug] 	report for default#dm$sources;0.1 test produced in /home/aamir/Sources/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-test.xml
@@ -6714,4 +6908,4 @@
 [debug] 	report for default#dm$sources;0.1 plugin produced in /home/aamir/Sources/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-plugin.xml
 [debug] 	report for default#dm$sources;0.1 pom produced in /home/aamir/Sources/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-pom.xml
 [debug] 	report for default#dm$sources;0.1 scala-tool produced in /home/aamir/Sources/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-scala-tool.xml
-[debug] 	resolve done (1324ms resolve - 38ms download)
+[debug] 	resolve done (1058ms resolve - 13813ms download)
