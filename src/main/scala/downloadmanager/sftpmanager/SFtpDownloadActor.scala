@@ -12,7 +12,7 @@ import scala.concurrent.duration.{Duration, _}
 
 class SFtpDownloadActor(url: String, fileName: String, actorRef:Option[ActorRef])
   extends Actor with Logger {
-  var SftpDownloaderActorRef = Actor.noSender
+  var sFtpDownloaderActorRef = Actor.noSender
   var RETRY_ATTEMPT = IntValues.ZERO
 
   override def receive: PartialFunction[Any, Unit] = {
@@ -24,7 +24,7 @@ class SFtpDownloadActor(url: String, fileName: String, actorRef:Option[ActorRef]
           */
         context.setReceiveTimeout(timeout)
         val downloadActor = context.actorOf(Props(new SFtpDownloaderComponent(None)), "SFtpDownloader")
-        SftpDownloaderActorRef = downloadActor
+        sFtpDownloaderActorRef = downloadActor
         downloadActor ! InitiateDownload(url, fileName)
         context.become(waitingForResponse)
         actorRef.foreach(_ ! "Download Started")
@@ -40,7 +40,7 @@ class SFtpDownloadActor(url: String, fileName: String, actorRef:Option[ActorRef]
     case ReceiveTimeout => {
       val msg = s"#########SFtpClient:::Download taking too much time, aborting and retrying download#############"
       cancelReceiveTimeOut
-      context.stop(SftpDownloaderActorRef)
+      context.stop(sFtpDownloaderActorRef)
       removePartialDownloadLocalFile
       context.become(receive)
       context.system.scheduler.scheduleOnce(4.second,self,StartDownload)
@@ -53,12 +53,31 @@ class SFtpDownloadActor(url: String, fileName: String, actorRef:Option[ActorRef]
     case cmd: SuccessResponse => {
       logger.info(cmd.msg)
       cancelReceiveTimeOut
-      context.stop(SftpDownloaderActorRef)
+      context.stop(sFtpDownloaderActorRef)
     }
   }
 
   override val supervisorStrategy = OneForOneStrategy(loggingEnabled = true) {
-    case _: OutOfMemoryError => Resume
+    case _: OutOfMemoryError => {
+      cancelReceiveTimeOut
+      context.stop(sFtpDownloaderActorRef)
+      removePartialDownloadLocalFile
+      context.become(receive)
+      context.system.scheduler.scheduleOnce(4.second,self,StartDownload)
+      val msg = "###############sftp download source taking too much memory, trying to restart client, and retrying again#######################"
+      logger.info(msg)
+      Resume
+    }
+    case _: StackOverflowError => {
+      cancelReceiveTimeOut
+      context.stop(sFtpDownloaderActorRef)
+      removePartialDownloadLocalFile
+      context.become(receive)
+      context.system.scheduler.scheduleOnce(4.second,self,StartDownload)
+      val msg = "###############sftp download source taking too much memory, trying to restart client, and retrying again#######################"
+      logger.info(msg)
+      Resume
+    }
   }
 
   def removePartialDownloadLocalFile = {

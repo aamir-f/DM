@@ -35,7 +35,7 @@ trait Downloader {
 }
 object ImplDownloader extends Downloader with DownloadManagerFacade
 
-object ll extends App /*with Logger*/ {
+object ll extends App {
 
   val source1 = Utils.buildHttpUrl
   val source2 = Utils.buildFtpUrl
