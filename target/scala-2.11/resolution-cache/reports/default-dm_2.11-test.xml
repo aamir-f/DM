@@ -7,53 +7,53 @@
 		revision="0.1"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180118043143"/>
+		date="20180119072616"/>
 	<dependencies>
 		<module organisation="org.specs2" name="specs2-core_2.11">
-			<revision name="4.0.1" status="release" pubdate="20171014184407" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="41">
+			<revision name="4.0.1" status="release" pubdate="20171014184407" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="41">
 				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="successful" details="" size="2591" time="1481" location="/home/administrator/.ivy2/cache/org.specs2/specs2-core_2.11/ivy-4.0.1.xml" searched="true" original-local-location="/home/administrator/.ivy2/cache/org.specs2/specs2-core_2.11/ivy-4.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/4.0.1/specs2-core_2.11-4.0.1.pom"/>
+				<metadata-artifact status="no" details="" size="3440" time="0" location="/home/administrator/.ivy2/cache/org.specs2/specs2-core_2.11/ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/4.0.1/specs2-core_2.11-4.0.1.pom"/>
 				<caller organisation="default" name="dm_2.11" conf="test, compile, runtime" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="specs2-core_2.11" type="jar" ext="jar" status="successful" details="" size="2169482" time="16844" location="/home/administrator/.ivy2/cache/org.specs2/specs2-core_2.11/jars/specs2-core_2.11-4.0.1.jar">
+					<artifact name="specs2-core_2.11" type="jar" ext="jar" status="no" details="" size="2169482" time="0" location="/home/administrator/.ivy2/cache/org.specs2/specs2-core_2.11/jars/specs2-core_2.11-4.0.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/4.0.1/specs2-core_2.11-4.0.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.specs2" name="specs2-matcher_2.11">
-			<revision name="4.0.1" status="release" pubdate="20171014184221" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+			<revision name="4.0.1" status="release" pubdate="20171014184221" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
 				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="successful" details="" size="1600" time="1264" location="/home/administrator/.ivy2/cache/org.specs2/specs2-matcher_2.11/ivy-4.0.1.xml" searched="true" original-local-location="/home/administrator/.ivy2/cache/org.specs2/specs2-matcher_2.11/ivy-4.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/4.0.1/specs2-matcher_2.11-4.0.1.pom"/>
+				<metadata-artifact status="no" details="" size="2801" time="0" location="/home/administrator/.ivy2/cache/org.specs2/specs2-matcher_2.11/ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/4.0.1/specs2-matcher_2.11-4.0.1.pom"/>
 				<caller organisation="org.specs2" name="specs2-core_2.11" conf="default, compile, runtime, master" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="4.0.1"/>
 				<artifacts>
-					<artifact name="specs2-matcher_2.11" type="jar" ext="jar" status="successful" details="" size="3120610" time="18378" location="/home/administrator/.ivy2/cache/org.specs2/specs2-matcher_2.11/jars/specs2-matcher_2.11-4.0.1.jar">
+					<artifact name="specs2-matcher_2.11" type="jar" ext="jar" status="no" details="" size="3120610" time="0" location="/home/administrator/.ivy2/cache/org.specs2/specs2-matcher_2.11/jars/specs2-matcher_2.11-4.0.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/4.0.1/specs2-matcher_2.11-4.0.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.specs2" name="specs2-common_2.11">
-			<revision name="4.0.1" status="release" pubdate="20171014184138" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+			<revision name="4.0.1" status="release" pubdate="20171014184138" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
 				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="successful" details="" size="2371" time="1177" location="/home/administrator/.ivy2/cache/org.specs2/specs2-common_2.11/ivy-4.0.1.xml" searched="true" original-local-location="/home/administrator/.ivy2/cache/org.specs2/specs2-common_2.11/ivy-4.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/4.0.1/specs2-common_2.11-4.0.1.pom"/>
+				<metadata-artifact status="no" details="" size="3393" time="0" location="/home/administrator/.ivy2/cache/org.specs2/specs2-common_2.11/ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/4.0.1/specs2-common_2.11-4.0.1.pom"/>
 				<caller organisation="org.specs2" name="specs2-matcher_2.11" conf="compile, runtime" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="4.0.1"/>
 				<artifacts>
-					<artifact name="specs2-common_2.11" type="jar" ext="jar" status="successful" details="" size="3517861" time="21095" location="/home/administrator/.ivy2/cache/org.specs2/specs2-common_2.11/jars/specs2-common_2.11-4.0.1.jar">
+					<artifact name="specs2-common_2.11" type="jar" ext="jar" status="no" details="" size="3517861" time="0" location="/home/administrator/.ivy2/cache/org.specs2/specs2-common_2.11/jars/specs2-common_2.11-4.0.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/4.0.1/specs2-common_2.11-4.0.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
-			<revision name="1.0.6" status="release" pubdate="20170502132758" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+			<revision name="1.0.6" status="release" pubdate="20170502132758" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="successful" details="" size="2192" time="1268" location="/home/administrator/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.6.xml" searched="true" original-local-location="/home/administrator/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.6/scala-parser-combinators_2.11-1.0.6.pom"/>
+				<metadata-artifact status="no" details="" size="2930" time="0" location="/home/administrator/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.6/scala-parser-combinators_2.11-1.0.6.pom"/>
 				<caller organisation="com.typesafe" name="ssl-config-core_2.11" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.2.1"/>
 				<caller organisation="org.specs2" name="specs2-common_2.11" conf="compile, runtime" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="4.0.1"/>
 				<caller organisation="org.scalatest" name="scalatest_2.11" conf="default, compile, runtime, master" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="3.0.1"/>
 				<artifacts>
-					<artifact name="scala-parser-combinators_2.11" type="bundle" ext="jar" status="successful" details="" size="450055" time="3514" location="/home/administrator/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.6.jar">
+					<artifact name="scala-parser-combinators_2.11" type="bundle" ext="jar" status="no" details="" size="450055" time="0" location="/home/administrator/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.6.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.6/scala-parser-combinators_2.11-1.0.6.jar"/>
 					</artifact>
 				</artifacts>
@@ -69,12 +69,12 @@
 			</revision>
 		</module>
 		<module organisation="org.specs2" name="specs2-fp_2.11">
-			<revision name="4.0.1" status="release" pubdate="20171014184006" resolver="public" artresolver="public" homepage="http://specs2.org/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+			<revision name="4.0.1" status="release" pubdate="20171014184006" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
 				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="successful" details="" size="1407" time="1258" location="/home/administrator/.ivy2/cache/org.specs2/specs2-fp_2.11/ivy-4.0.1.xml" searched="true" original-local-location="/home/administrator/.ivy2/cache/org.specs2/specs2-fp_2.11/ivy-4.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.11/4.0.1/specs2-fp_2.11-4.0.1.pom"/>
+				<metadata-artifact status="no" details="" size="2639" time="0" location="/home/administrator/.ivy2/cache/org.specs2/specs2-fp_2.11/ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.11/4.0.1/specs2-fp_2.11-4.0.1.pom"/>
 				<caller organisation="org.specs2" name="specs2-common_2.11" conf="compile, runtime" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="4.0.1"/>
 				<artifacts>
-					<artifact name="specs2-fp_2.11" type="jar" ext="jar" status="successful" details="" size="513196" time="5915" location="/home/administrator/.ivy2/cache/org.specs2/specs2-fp_2.11/jars/specs2-fp_2.11-4.0.1.jar">
+					<artifact name="specs2-fp_2.11" type="jar" ext="jar" status="no" details="" size="513196" time="0" location="/home/administrator/.ivy2/cache/org.specs2/specs2-fp_2.11/jars/specs2-fp_2.11-4.0.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.11/4.0.1/specs2-fp_2.11-4.0.1.jar"/>
 					</artifact>
 				</artifacts>

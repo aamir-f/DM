@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180118043219"/>
+		date="20180119072617"/>
 	<dependencies>
 		<module organisation="org.specs2" name="specs2-core_2.11">
 			<revision name="4.0.1" status="release" pubdate="20171014184407" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="41">
@@ -15,7 +15,7 @@
 				<metadata-artifact status="no" details="" size="3440" time="0" location="/home/administrator/.ivy2/cache/org.specs2/specs2-core_2.11/ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/4.0.1/specs2-core_2.11-4.0.1.pom"/>
 				<caller organisation="default" name="dm$sources" conf="test, compile, runtime" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="specs2-core_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="110210" time="1911" location="/home/administrator/.ivy2/cache/org.specs2/specs2-core_2.11/srcs/specs2-core_2.11-4.0.1-sources.jar">
+					<artifact name="specs2-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="110210" time="0" location="/home/administrator/.ivy2/cache/org.specs2/specs2-core_2.11/srcs/specs2-core_2.11-4.0.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/4.0.1/specs2-core_2.11-4.0.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -27,7 +27,7 @@
 				<metadata-artifact status="no" details="" size="2801" time="0" location="/home/administrator/.ivy2/cache/org.specs2/specs2-matcher_2.11/ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/4.0.1/specs2-matcher_2.11-4.0.1.pom"/>
 				<caller organisation="default" name="dm$sources" conf="test, compile, runtime" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="specs2-matcher_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="64502" time="1653" location="/home/administrator/.ivy2/cache/org.specs2/specs2-matcher_2.11/srcs/specs2-matcher_2.11-4.0.1-sources.jar">
+					<artifact name="specs2-matcher_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="64502" time="0" location="/home/administrator/.ivy2/cache/org.specs2/specs2-matcher_2.11/srcs/specs2-matcher_2.11-4.0.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/4.0.1/specs2-matcher_2.11-4.0.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -39,7 +39,7 @@
 				<metadata-artifact status="no" details="" size="3393" time="0" location="/home/administrator/.ivy2/cache/org.specs2/specs2-common_2.11/ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/4.0.1/specs2-common_2.11-4.0.1.pom"/>
 				<caller organisation="default" name="dm$sources" conf="test, compile, runtime" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="specs2-common_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="162050" time="1843" location="/home/administrator/.ivy2/cache/org.specs2/specs2-common_2.11/srcs/specs2-common_2.11-4.0.1-sources.jar">
+					<artifact name="specs2-common_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="162050" time="0" location="/home/administrator/.ivy2/cache/org.specs2/specs2-common_2.11/srcs/specs2-common_2.11-4.0.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/4.0.1/specs2-common_2.11-4.0.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -51,7 +51,7 @@
 				<metadata-artifact status="no" details="" size="2930" time="0" location="/home/administrator/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.6/scala-parser-combinators_2.11-1.0.6.pom"/>
 				<caller organisation="default" name="dm$sources" conf="test, compile, runtime" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="43804" time="1697" location="/home/administrator/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.0.6-sources.jar">
+					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43804" time="0" location="/home/administrator/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.0.6-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.6/scala-parser-combinators_2.11-1.0.6-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -71,7 +71,7 @@
 				<metadata-artifact status="no" details="" size="2639" time="0" location="/home/administrator/.ivy2/cache/org.specs2/specs2-fp_2.11/ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.11/4.0.1/specs2-fp_2.11-4.0.1.pom"/>
 				<caller organisation="default" name="dm$sources" conf="test, compile, runtime" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="specs2-fp_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="16546" time="1603" location="/home/administrator/.ivy2/cache/org.specs2/specs2-fp_2.11/srcs/specs2-fp_2.11-4.0.1-sources.jar">
+					<artifact name="specs2-fp_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="16546" time="0" location="/home/administrator/.ivy2/cache/org.specs2/specs2-fp_2.11/srcs/specs2-fp_2.11-4.0.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.11/4.0.1/specs2-fp_2.11-4.0.1-sources.jar"/>
 					</artifact>
 				</artifacts>

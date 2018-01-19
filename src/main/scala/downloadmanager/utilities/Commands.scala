@@ -1,5 +1,6 @@
 package downloadmanager.utilities
 
-case object StartHttpDownload
+case object StartDownload
+case object FtpHttpDownload
 case class SuccessResponse(msg:String)
-case class InitiateHttpDownload(url:String,fileName:String)
+case class InitiateDownload(url:String,fileName:String)
