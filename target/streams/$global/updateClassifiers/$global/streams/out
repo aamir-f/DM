@@ -94,13 +94,13 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master]
-[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.7 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->master(*)]
+[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.7 {compile=[master(*), compile, runtime(*), runtime, compile(*), master], runtime=[master(*), compile, runtime(*), runtime, compile(*), master], test=[master(*), compile, runtime(*), runtime, compile(*), master], compile-internal=[master(*), compile, runtime(*), runtime, compile(*), master], runtime-internal=[master(*), compile, runtime(*), runtime, compile(*), master], test-internal=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.7
 [debug] 	found org.slf4j#slf4j-api;1.7.7 in sbt-chain
+[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
@@ -197,13 +197,14 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.json4s#json4s-native_2.11;3.6.0-M2 [compile->master]
 [debug] == resolving dependencies default#dm$sources;0.1->org.json4s#json4s-native_2.11;3.6.0-M2 [compile->master]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->default]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.7 {compile=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.7 {compile=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
@@ -316,11 +317,12 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master]
-[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->master(*)]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master], test=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[master(*), compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7
 [debug] 	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-reflect;2.11.7
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
@@ -531,13 +533,13 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile->master]
-[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: ch.qos.logback#logback-core;1.1.2 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->master(*)]
+[debug] sbt-chain: Checking cache for: dependency: ch.qos.logback#logback-core;1.1.2 {compile=[master(*), compile, runtime(*), runtime, compile(*), master], runtime=[master(*), compile, runtime(*), runtime, compile(*), master], test=[master(*), compile, runtime(*), runtime, compile(*), master], compile-internal=[master(*), compile, runtime(*), runtime, compile(*), master], runtime-internal=[master(*), compile, runtime(*), runtime, compile(*), master], test-internal=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.1.2
 [debug] 	found ch.qos.logback#logback-core;1.1.2 in sbt-chain
+[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile(*)]
@@ -639,10 +641,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
@@ -719,6 +721,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
@@ -807,6 +810,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
@@ -971,10 +975,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile(*)]
@@ -1067,10 +1071,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->compile(*)]
@@ -1147,6 +1151,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile]
@@ -1235,6 +1240,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [runtime->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
@@ -1399,10 +1405,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [runtime->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [runtime->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [runtime->master]
+[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->compile(*)]
@@ -1499,10 +1505,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
@@ -1577,6 +1583,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
@@ -1665,6 +1672,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
@@ -1829,10 +1837,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile(*)]
@@ -1925,10 +1933,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->compile(*)]
@@ -2003,6 +2011,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile]
@@ -2091,6 +2100,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [runtime->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
@@ -2255,10 +2265,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [runtime->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [runtime->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [runtime->master]
+[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->compile(*)]
@@ -2351,10 +2361,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test->compile(*)]
@@ -2449,6 +2459,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test->compile]
@@ -2537,6 +2548,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [test->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [test->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [test->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [test->compile]
@@ -2745,10 +2757,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [test->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [test->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test->compile(*)]
@@ -2848,10 +2860,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
@@ -2928,6 +2940,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
@@ -3016,6 +3029,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
@@ -3180,10 +3194,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile(*)]
@@ -3278,10 +3292,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile-internal->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile-internal->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile-internal->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile-internal->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile-internal->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile-internal->compile(*)]
@@ -3358,6 +3372,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile-internal->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile-internal->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile-internal->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile-internal->compile]
@@ -3446,6 +3461,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile-internal->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile-internal->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile-internal->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile-internal->compile]
@@ -3610,10 +3626,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile-internal->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile-internal->master]
+[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile-internal->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile-internal->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile-internal->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile-internal->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile-internal->compile(*)]
@@ -3710,10 +3726,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
@@ -3790,6 +3806,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
@@ -3878,6 +3895,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
@@ -4042,10 +4060,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile(*)]
@@ -4138,10 +4156,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->compile(*)]
@@ -4218,6 +4236,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile]
@@ -4306,6 +4325,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [runtime->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
@@ -4470,10 +4490,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [runtime->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [runtime->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [runtime->master]
+[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->compile(*)]
@@ -4567,10 +4587,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime-internal->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime-internal->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime-internal->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime-internal->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime-internal->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime-internal->compile(*)]
@@ -4647,6 +4667,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime-internal->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime-internal->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime-internal->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime-internal->compile]
@@ -4735,6 +4756,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [runtime-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [runtime-internal->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [runtime-internal->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [runtime-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [runtime-internal->compile]
@@ -4899,10 +4921,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [runtime-internal->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [runtime-internal->master]
+[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime-internal->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime-internal->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime-internal->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime-internal->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime-internal->compile(*)]
@@ -5000,10 +5022,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)]
@@ -5086,6 +5108,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
@@ -5174,6 +5197,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
@@ -5338,10 +5362,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [compile->master]
+[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [compile->compile(*)]
@@ -5434,10 +5458,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [runtime->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [runtime->compile(*)]
@@ -5520,6 +5544,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [runtime->compile]
@@ -5608,6 +5633,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [runtime->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
@@ -5772,10 +5798,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [runtime->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [runtime->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [runtime->master]
+[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [runtime->compile(*)]
@@ -5868,10 +5894,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test->compile(*)]
@@ -5960,6 +5986,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test->compile]
@@ -6048,6 +6075,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [test->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [test->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [test->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [test->compile]
@@ -6244,10 +6272,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [test->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [test->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [test->master]
+[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test->compile(*)]
@@ -6342,10 +6370,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test-internal->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [test-internal->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test-internal->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test-internal->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test-internal->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test-internal->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.slf4j#slf4j-api;1.7.7 [test-internal->compile(*)]
@@ -6434,6 +6462,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test-internal->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test-internal->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test-internal->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-library;2.11.7 [test-internal->compile]
@@ -6522,6 +6551,7 @@
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [test-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [test-internal->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.uncommons.maths#uncommons-maths;1.2.2a [test-internal->master]
+[debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [test-internal->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [test-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->org.scala-lang#scala-reflect;2.11.7 [test-internal->compile]
@@ -6718,10 +6748,10 @@
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [test-internal->master]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [test-internal->compile(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->com.typesafe#config;1.3.0 [test-internal->master]
+[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test-internal->master(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test-internal->compile]
-[debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test-internal->master(compile)]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test-internal->runtime]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test-internal->compile]
 [debug] == resolving dependencies default#dm$sources;0.1->ch.qos.logback#logback-core;1.1.2 [test-internal->compile(*)]
@@ -6815,97 +6845,67 @@
 [debug] == resolving dependencies default#dm$sources;0.1->jline#jline;2.12.1 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.7!slf4j-api.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-cluster-tools_2.11;2.4.17!akka-cluster-tools_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.8.4!jackson-databind.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.4.17!akka-testkit_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.11;3.6.0-M2!json4s-core_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.6!scala-xml_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.json4s#json4s-scalap_2.11;3.6.0-M2!json4s-scalap_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-cluster_2.11;2.4.17!akka-cluster_2.11.jar(src)
 [debug] 	[NOT REQUIRED] io.aeron#aeron-client;1.1.0!aeron-client.jar(src)
-[debug] 	[NOT REQUIRED] org.mockito#mockito-all;1.10.19!mockito-all.jar(src)
-[debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(src)
-[debug] 	[NOT REQUIRED] io.aeron#aeron-driver;1.1.0!aeron-driver.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.11;3.6.0-M2!json4s-ast_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.11;10.0.1!akka-parsing_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.4.17!akka-actor_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.11;2.4.17!akka-remote_2.11.jar(src)
+[debug] 	[NOT REQUIRED] io.aeron#aeron-driver;1.1.0!aeron-driver.jar(src)
 [debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.54!jsch.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.11;10.0.1!akka-parsing_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.11;2.4.17!akka-remote_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-jackson_2.11;3.5.3!json4s-jackson_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.6!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.7!slf4j-api.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.2!logback-core.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-cluster-tools_2.11;2.4.17!akka-cluster-tools_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.json4s#json4s-scalap_2.11;3.6.0-M2!json4s-scalap_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.8.4!jackson-databind.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-native_2.11;3.6.0-M2!json4s-native_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.agrona#agrona;0.9.2!agrona.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.1.2!logback-classic.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.11;0.2.1!ssl-config-core_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.4.17!akka-testkit_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.11;0.2.1!ssl-config-core_2.11.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty;3.10.6.Final!netty.jar(src)
+[debug] 	[NOT REQUIRED] commons-net#commons-net;3.3!commons-net.jar(src)
 [debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.9!joda-time.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.8.0!jackson-annotations.jar(src)
-[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.11;3.0.1!scalactic_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-common_2.11;4.0.1!specs2-common_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar(src)
+[debug] 	[NOT REQUIRED] org.agrona#agrona;0.9.2!agrona.jar(src)
+[debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.11;3.6.0-M2!json4s-core_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-matcher_2.11;4.0.1!specs2-matcher_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-persistence_2.11;2.4.17!akka-persistence_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-fp_2.11;4.0.1!specs2-fp_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-cluster_2.11;2.4.17!akka-cluster_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.11;2.4.17!akka-protobuf_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.11;2.4.17!akka-stream_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.11;10.0.1!akka-http-core_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.4!jackson-core.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.11;3.1.0!scala-logging_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(src)
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.2!logback-core.jar(src)
-[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar(src)
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;3.0.1!scalatest_2.11.jar(src)
-[debug] 		tried /home/aamir/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.6/srcs/scala-parser-combinators_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.6/scala-parser-combinators_2.11-1.0.6-sources.jar
-[debug] 	[NOT REQUIRED] commons-net#commons-net;3.3!commons-net.jar(src)
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.6/scala-parser-combinators_2.11-1.0.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.6/scala-parser-combinators_2.11-1.0.6-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.6/scala-parser-combinators_2.11-1.0.6-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.6/scala-parser-combinators_2.11-1.0.6-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6!scala-parser-combinators_2.11.jar(src) (2051ms)
-[debug] 		tried /home/aamir/.ivy2/local/org.specs2/specs2-core_2.11/4.0.1/srcs/specs2-core_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/4.0.1/specs2-core_2.11-4.0.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/4.0.1/specs2-core_2.11-4.0.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/4.0.1/specs2-core_2.11-4.0.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/4.0.1/specs2-core_2.11-4.0.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/4.0.1/specs2-core_2.11-4.0.1-sources.jar
-[info] 	[SUCCESSFUL ] org.specs2#specs2-core_2.11;4.0.1!specs2-core_2.11.jar(src) (2994ms)
-[debug] 		tried /home/aamir/.ivy2/local/org.specs2/specs2-common_2.11/4.0.1/srcs/specs2-common_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/4.0.1/specs2-common_2.11-4.0.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/4.0.1/specs2-common_2.11-4.0.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/4.0.1/specs2-common_2.11-4.0.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/4.0.1/specs2-common_2.11-4.0.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/4.0.1/specs2-common_2.11-4.0.1-sources.jar
-[info] 	[SUCCESSFUL ] org.specs2#specs2-common_2.11;4.0.1!specs2-common_2.11.jar(src) (3282ms)
-[debug] 		tried /home/aamir/.ivy2/local/org.specs2/specs2-matcher_2.11/4.0.1/srcs/specs2-matcher_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/4.0.1/specs2-matcher_2.11-4.0.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/4.0.1/specs2-matcher_2.11-4.0.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/4.0.1/specs2-matcher_2.11-4.0.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/4.0.1/specs2-matcher_2.11-4.0.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/4.0.1/specs2-matcher_2.11-4.0.1-sources.jar
-[info] 	[SUCCESSFUL ] org.specs2#specs2-matcher_2.11;4.0.1!specs2-matcher_2.11.jar(src) (2857ms)
-[debug] 		tried /home/aamir/.ivy2/local/org.specs2/specs2-fp_2.11/4.0.1/srcs/specs2-fp_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.11/4.0.1/specs2-fp_2.11-4.0.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.11/4.0.1/specs2-fp_2.11-4.0.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.11/4.0.1/specs2-fp_2.11-4.0.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.11/4.0.1/specs2-fp_2.11-4.0.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.11/4.0.1/specs2-fp_2.11-4.0.1-sources.jar
-[info] 	[SUCCESSFUL ] org.specs2#specs2-fp_2.11;4.0.1!specs2-fp_2.11.jar(src) (2560ms)
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.11;3.0.1!scalactic_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
+[debug] 	[NOT REQUIRED] org.mockito#mockito-all;1.10.19!mockito-all.jar(src)
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.11;2.4.17!akka-stream_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;3.0.1!scalatest_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.11;10.0.1!akka-http-core_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 1058ms :: artifacts dl 13813ms
-[debug] 	report for default#dm$sources;0.1 compile produced in /home/aamir/Sources/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-compile.xml
-[debug] 	report for default#dm$sources;0.1 runtime produced in /home/aamir/Sources/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-runtime.xml
-[debug] 	report for default#dm$sources;0.1 test produced in /home/aamir/Sources/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-test.xml
-[debug] 	report for default#dm$sources;0.1 provided produced in /home/aamir/Sources/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-provided.xml
-[debug] 	report for default#dm$sources;0.1 optional produced in /home/aamir/Sources/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-optional.xml
-[debug] 	report for default#dm$sources;0.1 compile-internal produced in /home/aamir/Sources/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-compile-internal.xml
-[debug] 	report for default#dm$sources;0.1 runtime-internal produced in /home/aamir/Sources/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-runtime-internal.xml
-[debug] 	report for default#dm$sources;0.1 test-internal produced in /home/aamir/Sources/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-test-internal.xml
-[debug] 	report for default#dm$sources;0.1 plugin produced in /home/aamir/Sources/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-plugin.xml
-[debug] 	report for default#dm$sources;0.1 pom produced in /home/aamir/Sources/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-pom.xml
-[debug] 	report for default#dm$sources;0.1 scala-tool produced in /home/aamir/Sources/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-scala-tool.xml
-[debug] 	resolve done (1058ms resolve - 13813ms download)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.6!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.4!jackson-core.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-core_2.11;4.0.1!specs2-core_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.8.0!jackson-annotations.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.11;3.1.0!scala-logging_2.11.jar(src)
+[debug] :: resolution report :: resolve 606ms :: artifacts dl 14ms
+[debug] 	report for default#dm$sources;0.1 compile produced in /home/administrator/Source/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-compile.xml
+[debug] 	report for default#dm$sources;0.1 runtime produced in /home/administrator/Source/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-runtime.xml
+[debug] 	report for default#dm$sources;0.1 test produced in /home/administrator/Source/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-test.xml
+[debug] 	report for default#dm$sources;0.1 provided produced in /home/administrator/Source/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-provided.xml
+[debug] 	report for default#dm$sources;0.1 optional produced in /home/administrator/Source/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-optional.xml
+[debug] 	report for default#dm$sources;0.1 compile-internal produced in /home/administrator/Source/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-compile-internal.xml
+[debug] 	report for default#dm$sources;0.1 runtime-internal produced in /home/administrator/Source/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-runtime-internal.xml
+[debug] 	report for default#dm$sources;0.1 test-internal produced in /home/administrator/Source/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-test-internal.xml
+[debug] 	report for default#dm$sources;0.1 plugin produced in /home/administrator/Source/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-plugin.xml
+[debug] 	report for default#dm$sources;0.1 pom produced in /home/administrator/Source/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-pom.xml
+[debug] 	report for default#dm$sources;0.1 scala-tool produced in /home/administrator/Source/DM/target/scala-2.11/resolution-cache/reports/default-dm$sources-scala-tool.xml
+[debug] 	resolve done (606ms resolve - 14ms download)

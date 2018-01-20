@@ -1,4 +1,4 @@
-package downloadmanager.httpmanager
+package downloadmanager.sftpmanager
 
 import java.io.File
 
@@ -7,12 +7,12 @@ import akka.actor.{Actor, ActorRef, OneForOneStrategy, PoisonPill, Props, Receiv
 import downloadmanager.utilities.HttpResponseTimeout._
 import downloadmanager.utilities._
 
-import scala.concurrent.duration._
 import scala.concurrent.ExecutionContext.Implicits.global
-import scala.concurrent.duration.Duration
+import scala.concurrent.duration.{Duration, _}
 
-class HttpDownloadActor(url: String, fileName: String,actorRef:Option[ActorRef]) extends Actor with Logger {
-  var httpDownloaderActorRef = Actor.noSender
+class SFtpDownloadActor(url: String, fileName: String, actorRef:Option[ActorRef])
+  extends Actor with Logger {
+  var sFtpDownloaderActorRef = Actor.noSender
   var RETRY_ATTEMPT = IntValues.ZERO
 
   override def receive: PartialFunction[Any, Unit] = {
@@ -23,13 +23,13 @@ class HttpDownloadActor(url: String, fileName: String,actorRef:Option[ActorRef])
           * Here timeout is configurable depending upon network speed, content size
           */
         context.setReceiveTimeout(timeout)
-        val downloadActor = context.actorOf(Props(new HttpDownloaderComponent(None)), "HttpDownloader")
-        httpDownloaderActorRef = downloadActor
+        val downloadActor = context.actorOf(Props(new SFtpDownloaderComponent(None)), "SFtpDownloader")
+        sFtpDownloaderActorRef = downloadActor
         downloadActor ! InitiateDownload(url, fileName)
         context.become(waitingForResponse)
         actorRef.foreach(_ ! "Download Started")
       } else {
-        val msg = s"\n#########HttpClient:Unable to download resource after max tries,please check your url#############"
+        val msg = s"\n#########SFtpClient:Unable to download resource after max tries,please check your url#############"
         logger.error(msg)
         self ! PoisonPill
       }
@@ -38,43 +38,43 @@ class HttpDownloadActor(url: String, fileName: String,actorRef:Option[ActorRef])
 
   def waitingForResponse: Receive = {
     case ReceiveTimeout => {
-      val msg = s"#########HttpClient::Dowload taking too much time, aborting and retrying download#############"
+      val msg = s"#########SFtpClient:::Download taking too much time, aborting and retrying download#############"
       cancelReceiveTimeOut
-      context.stop(httpDownloaderActorRef)
+      context.stop(sFtpDownloaderActorRef)
       removePartialDownloadLocalFile
       context.become(receive)
       context.system.scheduler.scheduleOnce(4.second,self,StartDownload)
       logger.error(msg)
     }
     case Terminated => {
-      val errMsg = "######Unexpected error:HttpClient is down#######"
+      val errMsg = "######Unexpected error:SFtpClient is down#######"
       logger.error(errMsg)
     }
     case cmd: SuccessResponse => {
       logger.info(cmd.msg)
       cancelReceiveTimeOut
-      context.stop(httpDownloaderActorRef)
+      context.stop(sFtpDownloaderActorRef)
     }
   }
 
   override val supervisorStrategy = OneForOneStrategy(loggingEnabled = true) {
     case _: OutOfMemoryError => {
       cancelReceiveTimeOut
-      context.stop(httpDownloaderActorRef)
+      context.stop(sFtpDownloaderActorRef)
       removePartialDownloadLocalFile
       context.become(receive)
       context.system.scheduler.scheduleOnce(4.second,self,StartDownload)
-      val msg = "###############http download source taking too much memory, trying to restart client, and retrying again#######################"
+      val msg = "###############sftp download source taking too much memory, trying to restart client, and retrying again#######################"
       logger.info(msg)
       Resume
     }
     case _: StackOverflowError => {
       cancelReceiveTimeOut
-      context.stop(httpDownloaderActorRef)
+      context.stop(sFtpDownloaderActorRef)
       removePartialDownloadLocalFile
       context.become(receive)
       context.system.scheduler.scheduleOnce(4.second,self,StartDownload)
-      val msg = "###############http download source taking too much memory, trying to restart client, and retrying again#######################"
+      val msg = "###############sftp download source taking too much memory, trying to restart client, and retrying again#######################"
       logger.info(msg)
       Resume
     }

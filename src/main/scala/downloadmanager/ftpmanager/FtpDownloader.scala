@@ -1,10 +1,11 @@
 package downloadmanager.ftpmanager
 
-import java.io.File
+import java.io.{BufferedOutputStream, File, FileOutputStream}
 import java.net.URL
 
 import akka.actor.{Actor, ActorRef, PoisonPill}
-import downloadmanager.utilities._
+import downloadmanager.utilities.{ConfigurationReaderComponent, _}
+import org.apache.commons.net.ftp.{FTP, FTPClient}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
@@ -54,12 +55,6 @@ class FtpDownloaderComponent(actorRef:Option[ActorRef]) extends Actor with Logge
 
 object FtpDownloader extends FtpDownloaderComponent(None)
 
-import java.io.{BufferedOutputStream, File, FileOutputStream}
-
-import downloadmanager.utilities.ConfigurationReaderComponent
-import org.apache.commons.net.ftp.{FTP, FTPClient}
-
-
 trait FtpDownloader extends Logger {
 
   val ftpServer = FtpCredentials.serverIp
@@ -68,7 +63,7 @@ trait FtpDownloader extends Logger {
   val ftpPassword = FtpCredentials.serverPassword
 
 
-  def downloadFtpFile(ftpRemotePath: String, fileName: String): Future[String] = {
+  def   downloadFtpFile(ftpRemotePath: String, fileName: String): Future[String] = {
     Future {
 
       val ftpClient = FTPClientGenerator.createFTPClient

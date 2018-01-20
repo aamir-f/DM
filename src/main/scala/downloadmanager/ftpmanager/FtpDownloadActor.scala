@@ -38,7 +38,7 @@ class FtpDownloadActor(url: String, fileName: String, actorRef:Option[ActorRef])
 
   def waitingForResponse: Receive = {
     case ReceiveTimeout => {
-      val msg = s"#########FtpClient:::Dowload taking too much time, aborting and retrying download#############"
+      val msg = s"#########FtpClient:::Download taking too much time, aborting and retrying download#############"
       cancelReceiveTimeOut
       context.stop(ftpDownloaderActorRef)
       removePartialDownloadLocalFile
@@ -58,7 +58,26 @@ class FtpDownloadActor(url: String, fileName: String, actorRef:Option[ActorRef])
   }
 
   override val supervisorStrategy = OneForOneStrategy(loggingEnabled = true) {
-    case _: OutOfMemoryError => Resume
+    case _: OutOfMemoryError => {
+      cancelReceiveTimeOut
+      context.stop(ftpDownloaderActorRef)
+      removePartialDownloadLocalFile
+      context.become(receive)
+      context.system.scheduler.scheduleOnce(4.second,self,StartDownload)
+      val msg = "###############ftp download source taking too much memory, trying to restart client, and retrying again#######################"
+      logger.info(msg)
+      Resume
+    }
+    case _: StackOverflowError => {
+      cancelReceiveTimeOut
+      context.stop(ftpDownloaderActorRef)
+      removePartialDownloadLocalFile
+      context.become(receive)
+      context.system.scheduler.scheduleOnce(4.second,self,StartDownload)
+      val msg = "###############ftp download source taking too much memory, trying to restart client, and retrying again#######################"
+      logger.info(msg)
+      Resume
+    }
   }
 
   def removePartialDownloadLocalFile = {

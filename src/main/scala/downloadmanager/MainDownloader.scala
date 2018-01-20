@@ -3,6 +3,7 @@ package downloadmanager
 import akka.actor.Props
 import downloadmanager.ftpmanager.FtpDownloadActor
 import downloadmanager.httpmanager.HttpDownloadActor
+import downloadmanager.sftpmanager.SFtpDownloadActor
 import downloadmanager.utilities._
 
 trait Downloader {
@@ -23,17 +24,21 @@ trait Downloader {
         val ftpRef = ActorSystemContainer.system.actorOf(Props(new FtpDownloadActor(basePath,x._2,None)),"FtpDownloadStarter")
         ftpRef ! StartDownload
       }
+      if(x._1.startsWith("sftp")) {
+        val basePath = x._1.substring(x._1.indexOf("/") + 1)
+        val ftpRef = ActorSystemContainer.system.actorOf(Props(new SFtpDownloadActor(basePath,x._2,None)),"SFtpDownloadStarter")
+        ftpRef ! StartDownload
+      }
 
     }
   }
 }
 object ImplDownloader extends Downloader with DownloadManagerFacade
 
-object ll extends App /*with Logger*/ {
+object ll extends App {
 
   val source1 = Utils.buildHttpUrl
   val source2 = Utils.buildFtpUrl
-  val source3 = "sftp://and.also.this/sftpfile"
-  val sourceList = List(source1,source2,source3)
+  val sourceList = List(source1,source2)
   ImplDownloader.init(sourceList)
 }
