@@ -38,7 +38,7 @@ class HttpDownloadActor(url: String, fileName: String,actorRef:Option[ActorRef])
 
   def waitingForResponse: Receive = {
     case ReceiveTimeout => {
-      val msg = s"#########HttpClient::Dowload taking too much time, aborting and retrying download#############"
+      val msg = s"#########HttpClient::Download taking too much time, aborting and retrying download#############"
       cancelReceiveTimeOut
       context.stop(httpDownloaderActorRef)
       removePartialDownloadLocalFile
