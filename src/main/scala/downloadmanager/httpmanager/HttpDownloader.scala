@@ -11,7 +11,7 @@ import scala.concurrent.Future
 import scala.sys.process._
 import scala.util.{Failure, Success}
 
-class HttpDownloaderComponent(actorRef:Option[ActorRef]) extends Actor with Logger {
+class HttpDownloaderComponent(actorRef:Option[ActorRef]) extends Actor with Logger with HttpDownloaderRepo {
 
   override def preStart(): Unit = {
     logger.info("#################About to download Http File#############")
@@ -40,16 +40,17 @@ class HttpDownloaderComponent(actorRef:Option[ActorRef]) extends Actor with Logg
       }
     }
   }
+}
 
+trait HttpDownloaderRepo {
   private[httpmanager] def fileDownloader(url: String, fileName: String): Future[String] = {
     val localFileLoc = Utils.localDiskLocation
     val localFile = s"$localFileLoc$fileName"
     downloadFile(url, localFile)
   }
 
-  private def downloadFile(url: String, localFileLoc: String): Future[String] = {
+  private[httpmanager] def downloadFile(url: String, localFileLoc: String): Future[String] = {
     Future(new URL(url) #> new File(localFileLoc) !!)
   }
 }
-
-object HttpDownloader extends HttpDownloaderComponent(None  )
+object ImplHttpDownloaderRepo extends HttpDownloaderRepo

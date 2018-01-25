@@ -35,8 +35,10 @@ trait Downloader {
 }
 object ImplDownloader extends Downloader with DownloadManagerFacade
 
-object ll extends App {
-
+object StartUp extends App {
+/**
+ *We can add multiple sources here,depending on configuration
+ **/
   val source1 = Utils.buildHttpUrl
   val source2 = Utils.buildFtpUrl
   val sourceList = List(source1,source2)
