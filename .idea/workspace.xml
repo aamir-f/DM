@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fcb8b29-c7fb-4c56-8375-9741ad59b3cd" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/downloadmanager/shoppingcart/ShoppingCart.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/downloadmanager/shoppingcart/Test1.scala" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/dm.iml" afterPath="$PROJECT_DIR$/.idea/modules/dm.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/dm$sources/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/dm$sources/0.1/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/dm$sources/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/dm$sources/0.1/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-test.xml" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,40 +62,18 @@
       <file leaf-file-name="HttpDownloader.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/httpmanager/HttpDownloader.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
+            <state relative-caret-position="72">
               <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpDownloadActor.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HttpDownloadActor.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/httpmanager/HttpDownloadActor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SFtpDownloader.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/sftpmanager/SFtpDownloader.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-              <folding>
-                <element signature="e#38#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SFtpDownloadActor.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/sftpmanager/SFtpDownloadActor.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="36" column="3" lean-forward="false" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+            <state relative-caret-position="684">
+              <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -84,9 +82,11 @@
       <file leaf-file-name="MainDownloader.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/MainDownloader.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="74" lean-forward="false" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
-              <folding />
+            <state relative-caret-position="36">
+              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="e#25#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,40 +94,73 @@
       <file leaf-file-name="Utils.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Utils.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="720">
+              <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+      <file leaf-file-name="ShoppingCart.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/shoppingcart/ShoppingCart.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FtpDownloader.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/ftpmanager/FtpDownloader.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="65" column="8" lean-forward="false" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+            <state relative-caret-position="173">
+              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding>
-                <element signature="e#36#97#0" expanded="true" />
+                <element signature="e#38#80#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FtpDownloadActor.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/ftpmanager/FtpDownloadActor.scala">
+      <file leaf-file-name="Exception.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Exception.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="79" selection-end-column="5" />
+            <state relative-caret-position="522">
+              <caret line="52" column="11" lean-forward="false" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+              <folding>
+                <element signature="e#1247#1248#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test1.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/shoppingcart/Test1.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FtpDownloaderTest.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/ftpmanager/FtpDownloaderTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpDownloaderTest.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/httpmanager/HttpDownloaderTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UtilitiesTest.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/utitities/UtilitiesTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -185,6 +218,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/downloadmanager/httpmanager/HttpDownloadActor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/downloadmanager/ftpmanager/FtpDownloadActor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/downloadmanager/sftpmanager/SFtpDownloadActor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/downloadmanager/shoppingcart/Problem1.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/downloadmanager/shoppingcart/ShoppingCart.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/downloadmanager/shoppingcart/Test1.scala" />
       </list>
     </option>
   </component>
@@ -210,7 +246,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -259,13 +297,43 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="downloadmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="downloadmanager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="downloadmanager" type="462c0819:PsiDirectoryNode" />
               <item name="ftpmanager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DM" type="b2602c69:ProjectViewProjectNode" />
               <item name="DM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="downloadmanager" type="462c0819:PsiDirectoryNode" />
               <item name="httpmanager" type="462c0819:PsiDirectoryNode" />
@@ -274,17 +342,15 @@
               <item name="DM" type="b2602c69:ProjectViewProjectNode" />
               <item name="DM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="downloadmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="sftpmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,7 +379,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ll">
+  <component name="RunManager" selected="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5  Dave Soaps to the cart">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -335,14 +401,14 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="ll" type="Application" factoryName="Application" temporary="true">
+    <configuration name="jj" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="downloadmanager.*" />
+          <option name="PATTERN" value="downloadmanager.shoppingcart.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="downloadmanager.ll" />
+      <option name="MAIN_CLASS_NAME" value="downloadmanager.shoppingcart.jj" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -381,25 +447,10 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="HttpDownloaderActorSpec (1)" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true">
+    <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should check that no items are there in cart at start" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="dm" />
-      <setting name="path" value="downloadmanager.httpmanager.HttpDownloaderActorSpec" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="Class" />
-      <setting name="path" value="downloadmanager.httpmanager.HttpDownloaderActorSpec" />
-    </configuration>
-    <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return error failure message when download failed" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="dm" />
-      <setting name="path" value="downloadmanager.httpmanager.HttpDownloaderActorSpec" />
+      <setting name="path" value="downloadmanager.shoppingcart.ShoppingCartUtilitiesTest" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -409,13 +460,13 @@
       <setting name="useUiWithSbt" value="false" />
       <envs />
       <setting name="testKind" value="Test name" />
-      <setting name="path" value="downloadmanager.httpmanager.HttpDownloaderActorSpec" />
-      <setting name="testName" value="return error failure message when download failed" />
+      <setting name="path" value="downloadmanager.shoppingcart.ShoppingCartUtilitiesTest" />
+      <setting name="testName" value="ShoppingCartUtilities Test should check that no items are there in cart at start" />
     </configuration>
-    <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return failure message as download failed" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5  Dave Soaps to the cart" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="dm" />
-      <setting name="path" value="downloadmanager.httpmanager.HttpDownloaderActorSpec" />
+      <setting name="path" value="downloadmanager.shoppingcart.ShoppingCartUtilitiesTest" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -425,13 +476,13 @@
       <setting name="useUiWithSbt" value="false" />
       <envs />
       <setting name="testKind" value="Test name" />
-      <setting name="path" value="downloadmanager.httpmanager.HttpDownloaderActorSpec" />
-      <setting name="testName" value="return failure message as download failed" />
+      <setting name="path" value="downloadmanager.shoppingcart.ShoppingCartUtilitiesTest" />
+      <setting name="testName" value="ShoppingCartUtilities Test should get total cart price after adding 5  Dave Soaps to the cart" />
     </configuration>
-    <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return success message as download started" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5 and then 3 Dave Soaps to the cart" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="dm" />
-      <setting name="path" value="downloadmanager.httpmanager.HttpDownloaderActorSpec" />
+      <setting name="path" value="downloadmanager.shoppingcart.ShoppingCartUtilitiesTest" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -441,8 +492,24 @@
       <setting name="useUiWithSbt" value="false" />
       <envs />
       <setting name="testKind" value="Test name" />
-      <setting name="path" value="downloadmanager.httpmanager.HttpDownloaderActorSpec" />
-      <setting name="testName" value="return success message as download started" />
+      <setting name="path" value="downloadmanager.shoppingcart.ShoppingCartUtilitiesTest" />
+      <setting name="testName" value="ShoppingCartUtilities Test should get total cart price after adding 5 and then 3 Dave Soaps to the cart" />
+    </configuration>
+    <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should throw PriceValidationException if trying to create item with price less than zero" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="dm" />
+      <setting name="path" value="downloadmanager.shoppingcart.ShoppingCartUtilitiesTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="downloadmanager.shoppingcart.ShoppingCartUtilitiesTest" />
+      <setting name="testName" value="ShoppingCartUtilities Test should throw PriceValidationException if trying to create item with price less than zero" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -478,24 +545,24 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Specs2.HttpDownloaderActorSpec (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Specs2.downloadmanager.httpmanager.HttpDownloaderActorSpec::return success message as download started" />
-      <item index="2" class="java.lang.String" itemvalue="Specs2.downloadmanager.httpmanager.HttpDownloaderActorSpec::return failure message as download failed" />
-      <item index="3" class="java.lang.String" itemvalue="Specs2.downloadmanager.httpmanager.HttpDownloaderActorSpec::return error failure message when download failed" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ll" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should check that no items are there in cart at start" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should throw PriceValidationException if trying to create item with price less than zero" />
+      <item index="2" class="java.lang.String" itemvalue="Application.jj" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5 and then 3 Dave Soaps to the cart" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5  Dave Soaps to the cart" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ll" />
-        <item index="1" class="java.lang.String" itemvalue="Specs2.downloadmanager.httpmanager.HttpDownloaderActorSpec::return success message as download started" />
-        <item index="2" class="java.lang.String" itemvalue="Specs2.downloadmanager.httpmanager.HttpDownloaderActorSpec::return error failure message when download failed" />
-        <item index="3" class="java.lang.String" itemvalue="Specs2.downloadmanager.httpmanager.HttpDownloaderActorSpec::return failure message as download failed" />
-        <item index="4" class="java.lang.String" itemvalue="Specs2.HttpDownloaderActorSpec (1)" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5  Dave Soaps to the cart" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5 and then 3 Dave Soaps to the cart" />
+        <item index="2" class="java.lang.String" itemvalue="Application.jj" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should throw PriceValidationException if trying to create item with price less than zero" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should check that no items are there in cart at start" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1516346778890" />
+    <option name="lastUpdateTimestamp" value="1517483887489" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -546,17 +613,17 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_error_failure_message_when_download_failed - 2018.01.18 at 06h 10m 56s.xml">
-      <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return error failure message when download failed" configurationId="Specs2RunConfiguration" />
+    <history-entry file="ShoppingCartUtilitiesTest_ShoppingCartUtilities_Test_should_get_total_cart_price_after_adding_5__Dave_Soaps_to_the_cart - 2018.02.01 at 11h 40m 32s.xml">
+      <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5  Dave Soaps to the cart" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_error_failure_message_when_download_failed - 2018.01.18 at 06h 11m 27s.xml">
-      <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return error failure message when download failed" configurationId="Specs2RunConfiguration" />
+    <history-entry file="ShoppingCartUtilitiesTest_ShoppingCartUtilities_Test_should_get_total_cart_price_after_adding_5_and_then_3_Dave_Soaps_to_the_cart - 2018.02.01 at 11h 39m 32s.xml">
+      <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5 and then 3 Dave Soaps to the cart" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_error_failure_message_when_download_failed - 2018.01.18 at 08h 52m 54s.xml">
-      <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return error failure message when download failed" configurationId="Specs2RunConfiguration" />
+    <history-entry file="ShoppingCartUtilitiesTest_ShoppingCartUtilities_Test_should_get_total_cart_price_after_adding_5_and_then_3_Dave_Soaps_to_the_cart - 2018.02.01 at 11h 40m 09s.xml">
+      <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5 and then 3 Dave Soaps to the cart" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_error_that_download_failed - 2018.01.18 at 05h 58m 40s.xml">
-      <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return error that download failed" configurationId="Specs2RunConfiguration" />
+    <history-entry file="ShoppingCartUtilitiesTest_ShoppingCartUtilities_Test_should_get_total_cart_price_after_adding_5_and_then_3_Dave_Soaps_to_the_cart - 2018.02.01 at 11h 40m 21s.xml">
+      <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5 and then 3 Dave Soaps to the cart" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_failure_message_as_download_failed - 2018.01.18 at 06h 11m 37s.xml">
       <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return failure message as download failed" configurationId="Specs2RunConfiguration" />
@@ -583,6 +650,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -594,7 +662,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22166944" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23272526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -607,7 +675,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -648,39 +715,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/ConfigurationReader.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Utils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/ftpmanager/FtpDownloader.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/utitities/UtilitiesTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/httpmanager/HttpDownloader.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -838,13 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/utitities/UtilitiesTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Logger.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -857,20 +889,6 @@
         <state relative-caret-position="252">
           <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/ftpmanager/FtpDownloaderTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/httpmanager/HttpDownloaderTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -892,21 +910,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/sftpmanager/SFtpDownloader.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
+        <state relative-caret-position="342">
           <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding>
-            <element signature="e#38#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/ftpmanager/FtpDownloader.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
+        <state relative-caret-position="990">
           <caret line="65" column="8" lean-forward="false" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
-          <folding>
-            <element signature="e#36#97#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -914,7 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="936">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="79" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,7 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="36" column="3" lean-forward="false" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,29 +940,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Utils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/MainDownloader.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="74" lean-forward="false" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/httpmanager/HttpDownloader.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
+        <state relative-caret-position="72">
           <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding />
         </state>
@@ -960,8 +953,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/httpmanager/HttpDownloadActor.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="684">
+          <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/utilities/Utils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/ftpmanager/FtpDownloaderTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/httpmanager/HttpDownloaderTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/utitities/UtilitiesTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/shoppingcart/Problem1.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/MainDownloader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#25#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="52" column="11" lean-forward="false" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+          <folding>
+            <element signature="e#1247#1248#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/shoppingcart/ShoppingCart.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#38#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/shoppingcart/Test1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
           <folding />
         </state>
       </provider>
