@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fcb8b29-c7fb-4c56-8375-9741ad59b3cd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/downloadmanager/shoppingcart/ShoppingCart.scala" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/downloadmanager/shoppingcart/Test1.scala" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/dm.iml" afterPath="$PROJECT_DIR$/.idea/modules/dm.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/dm$sources/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/dm$sources/0.1/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/dm$sources/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/dm$sources/0.1/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-dm$sources-test.xml" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/downloadmanager/shoppingcart/Test1.scala" afterPath="$PROJECT_DIR$/src/test/scala/downloadmanager/shoppingcart/Test1.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -101,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingCart.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ShoppingCart.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/shoppingcart/ShoppingCart.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="414">
+              <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
               <folding>
                 <element signature="e#38#80#0" expanded="true" />
               </folding>
@@ -126,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test1.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test1.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/shoppingcart/Test1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+            <state relative-caret-position="414">
+              <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -379,7 +359,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5  Dave Soaps to the cart">
+  <component name="RunManager" selected="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should check that no items are there in cart at start&#10;ShoppingCartUtilities Test should throw PriceValidationException if trying to create item with price less than zero&#10;ShoppingCartUtilities Test should get total cart price after adding 5 all at once Dave Soaps to the cart&#10;ShoppingCartUtilities Test should get total cart price after adding 5 separately Dave Soaps to the cart">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -399,25 +379,6 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
-      <envs />
-    </configuration>
-    <configuration name="jj" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="downloadmanager.shoppingcart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="downloadmanager.shoppingcart.jj" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="dm" />
       <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -447,7 +408,22 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should check that no items are there in cart at start" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="ShoppingCartUtilitiesTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="dm" />
+      <setting name="path" value="downloadmanager.shoppingcart.ShoppingCartUtilitiesTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Class" />
+      <setting name="path" value="downloadmanager.shoppingcart.ShoppingCartUtilitiesTest" />
+    </configuration>
+    <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should check that no items are there in cart at start&#10;ShoppingCartUtilities Test should throw PriceValidationException if trying to create item with price less than zero&#10;ShoppingCartUtilities Test should get total cart price after adding 5 all at once Dave Soaps to the cart&#10;ShoppingCartUtilities Test should get total cart price after adding 5 separately Dave Soaps to the cart" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="dm" />
       <setting name="path" value="downloadmanager.shoppingcart.ShoppingCartUtilitiesTest" />
@@ -461,7 +437,7 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="downloadmanager.shoppingcart.ShoppingCartUtilitiesTest" />
-      <setting name="testName" value="ShoppingCartUtilities Test should check that no items are there in cart at start" />
+      <setting name="testName" value="ShoppingCartUtilities Test should check that no items are there in cart at start&#10;ShoppingCartUtilities Test should throw PriceValidationException if trying to create item with price less than zero&#10;ShoppingCartUtilities Test should get total cart price after adding 5 all at once Dave Soaps to the cart&#10;ShoppingCartUtilities Test should get total cart price after adding 5 separately Dave Soaps to the cart" />
     </configuration>
     <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5  Dave Soaps to the cart" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -495,7 +471,7 @@
       <setting name="path" value="downloadmanager.shoppingcart.ShoppingCartUtilitiesTest" />
       <setting name="testName" value="ShoppingCartUtilities Test should get total cart price after adding 5 and then 3 Dave Soaps to the cart" />
     </configuration>
-    <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should throw PriceValidationException if trying to create item with price less than zero" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5 separately Dave Soaps to the cart" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="dm" />
       <setting name="path" value="downloadmanager.shoppingcart.ShoppingCartUtilitiesTest" />
@@ -509,7 +485,7 @@
       <envs />
       <setting name="testKind" value="Test name" />
       <setting name="path" value="downloadmanager.shoppingcart.ShoppingCartUtilitiesTest" />
-      <setting name="testName" value="ShoppingCartUtilities Test should throw PriceValidationException if trying to create item with price less than zero" />
+      <setting name="testName" value="ShoppingCartUtilities Test should get total cart price after adding 5 separately Dave Soaps to the cart" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -545,19 +521,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should check that no items are there in cart at start" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should throw PriceValidationException if trying to create item with price less than zero" />
-      <item index="2" class="java.lang.String" itemvalue="Application.jj" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5 and then 3 Dave Soaps to the cart" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5  Dave Soaps to the cart" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5 and then 3 Dave Soaps to the cart" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5  Dave Soaps to the cart" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5 separately Dave Soaps to the cart" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should check that no items are there in cart at start&#10;ShoppingCartUtilities Test should throw PriceValidationException if trying to create item with price less than zero&#10;ShoppingCartUtilities Test should get total cart price after adding 5 all at once Dave Soaps to the cart&#10;ShoppingCartUtilities Test should get total cart price after adding 5 separately Dave Soaps to the cart" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5  Dave Soaps to the cart" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5 and then 3 Dave Soaps to the cart" />
-        <item index="2" class="java.lang.String" itemvalue="Application.jj" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should throw PriceValidationException if trying to create item with price less than zero" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should check that no items are there in cart at start" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should check that no items are there in cart at start&#10;ShoppingCartUtilities Test should throw PriceValidationException if trying to create item with price less than zero&#10;ShoppingCartUtilities Test should get total cart price after adding 5 all at once Dave Soaps to the cart&#10;ShoppingCartUtilities Test should get total cart price after adding 5 separately Dave Soaps to the cart" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5 separately Dave Soaps to the cart" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5  Dave Soaps to the cart" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5 and then 3 Dave Soaps to the cart" />
       </list>
     </recent_temporary>
   </component>
@@ -613,35 +589,35 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="ShoppingCartUtilitiesTest - 2018.02.01 at 11h 48m 34s.xml">
+      <configuration name="ShoppingCartUtilitiesTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ShoppingCartUtilitiesTest - 2018.02.01 at 12h 01m 25s.xml">
+      <configuration name="ShoppingCartUtilitiesTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ShoppingCartUtilitiesTest - 2018.02.01 at 12h 01m 32s.xml">
+      <configuration name="ShoppingCartUtilitiesTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
     <history-entry file="ShoppingCartUtilitiesTest_ShoppingCartUtilities_Test_should_get_total_cart_price_after_adding_5__Dave_Soaps_to_the_cart - 2018.02.01 at 11h 40m 32s.xml">
       <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5  Dave Soaps to the cart" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ShoppingCartUtilitiesTest_ShoppingCartUtilities_Test_should_get_total_cart_price_after_adding_5_and_then_3_Dave_Soaps_to_the_cart - 2018.02.01 at 11h 39m 32s.xml">
-      <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5 and then 3 Dave Soaps to the cart" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ShoppingCartUtilitiesTest_ShoppingCartUtilities_Test_should_get_total_cart_price_after_adding_5_and_then_3_Dave_Soaps_to_the_cart - 2018.02.01 at 11h 40m 09s.xml">
-      <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5 and then 3 Dave Soaps to the cart" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ShoppingCartUtilitiesTest_ShoppingCartUtilities_Test_should_get_total_cart_price_after_adding_5__Dave_Soaps_to_the_cart - 2018.02.01 at 11h 56m 10s.xml">
+      <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5  Dave Soaps to the cart" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="ShoppingCartUtilitiesTest_ShoppingCartUtilities_Test_should_get_total_cart_price_after_adding_5_and_then_3_Dave_Soaps_to_the_cart - 2018.02.01 at 11h 40m 21s.xml">
       <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5 and then 3 Dave Soaps to the cart" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_failure_message_as_download_failed - 2018.01.18 at 06h 11m 37s.xml">
-      <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return failure message as download failed" configurationId="Specs2RunConfiguration" />
+    <history-entry file="ShoppingCartUtilitiesTest_ShoppingCartUtilities_Test_should_get_total_cart_price_after_adding_5_separately_Dave_Soaps_to_the_cart - 2018.02.01 at 12h 01m 01s.xml">
+      <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5 separately Dave Soaps to the cart" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_failure_message_as_download_failed - 2018.01.18 at 08h 52m 46s.xml">
-      <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return failure message as download failed" configurationId="Specs2RunConfiguration" />
+    <history-entry file="ShoppingCartUtilitiesTest_ShoppingCartUtilities_Test_should_get_total_cart_price_after_adding_5_separately_Dave_Soaps_to_the_cart - 2018.02.01 at 12h 01m 18s.xml">
+      <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5 separately Dave Soaps to the cart" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_success_message_as_download_started - 2018.01.18 at 05h 58m 32s.xml">
-      <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return success message as download started" configurationId="Specs2RunConfiguration" />
+    <history-entry file="ShoppingCartUtilitiesTest_ShoppingCartUtilities_Test_should_get_total_cart_price_after_adding_5_separately_Dave_Soaps_to_the_cart - 2018.02.01 at 12h 01m 52s.xml">
+      <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5 separately Dave Soaps to the cart" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_success_message_as_download_started - 2018.01.18 at 06h 03m 45s.xml">
-      <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return success message as download started" configurationId="Specs2RunConfiguration" />
-    </history-entry>
-    <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_success_message_as_download_started - 2018.01.18 at 06h 16m 53s.xml">
-      <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return success message as download started" configurationId="Specs2RunConfiguration" />
-    </history-entry>
-    <history-entry file="downloadmanager_httpmanager_HttpDownloaderActorSpec__return_success_message_as_download_started - 2018.01.18 at 08h 53m 01s.xml">
-      <configuration name="downloadmanager.httpmanager.HttpDownloaderActorSpec::return success message as download started" configurationId="Specs2RunConfiguration" />
+    <history-entry file="ShoppingCartUtilitiesTest_ShoppingCartUtilities_Test_should_get_total_cart_price_after_adding_5_separately_Dave_Soaps_to_the_cart - 2018.02.01 at 12h 03m 37s.xml">
+      <configuration name="ShoppingCartUtilitiesTest.ShoppingCartUtilities Test should get total cart price after adding 5 separately Dave Soaps to the cart" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1013,21 +989,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/shoppingcart/ShoppingCart.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/shoppingcart/Test1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="e#38#80#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="414">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/downloadmanager/shoppingcart/Test1.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/downloadmanager/shoppingcart/ShoppingCart.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="414">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <folding>
+            <element signature="e#38#80#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
