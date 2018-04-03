@@ -4,7 +4,7 @@
 		module="dm_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20180119072616"
+		publication="20180403172113"
 	>
 		<description>
 		DM
@@ -50,5 +50,6 @@
 		<dependency org="com.typesafe.scala-logging" name="scala-logging_2.11" rev="3.1.0" conf="compile->default(compile)"/>
 		<dependency org="ch.qos.logback" name="logback-classic" rev="1.1.2" conf="compile->default(compile)"/>
 		<dependency org="org.specs2" name="specs2-core_2.11" rev="4.0.1" conf="test->default(compile)"/>
+		<dependency org="org.specs2" name="specs2_2.11" rev="2.4.6" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>
